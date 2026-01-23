@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'fr' }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    {% seo %}
+    <link rel="canonical" href="{{ page.url | absolute_url }}" />
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+
+  <body>
+    {% include header.html %}
+    <main class="container">{{ content }}</main>
+    {% include footer.html %}
+    <script defer src="{{ '/assets/js/main.js' | relative_url }}"></script>
+    {% include structured-data.html %}
+  </body>
+</html>

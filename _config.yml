@@ -1,0 +1,27 @@
+title: "Studio7j"
+tagline: "Sites portfolio pour artistes en 7 jours"
+description: "Studio7j conçoit des sites d'artistes au rendu galerie, rapides, SEO-first, avec prise de RDV de cadrage."
+url: "https://studio7j.fr"
+lang: "fr"
+timezone: "Europe/Paris"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-redirect-from
+
+permalink: /journal/:title/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      image: "/assets/img/og.jpg"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
