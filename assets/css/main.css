@@ -73,11 +73,74 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Lien d'évitement — RGAA 12.7 */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: var(--s4);
+  z-index: 9999;
+  background: var(--ink);
+  color: var(--cream);
+  padding: var(--s2) var(--s5);
+  border-radius: 0 0 var(--radius) var(--radius);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  text-decoration: none;
+  transition: top 0.1s;
+}
+
+.skip-link:focus {
+  top: 0;
+  outline: 2px solid var(--ochre);
+  outline-offset: 2px;
+}
+
 /* Focus visible — navigation clavier */
 :focus-visible {
   outline: 2px solid var(--ochre);
   outline-offset: 3px;
   border-radius: 2px;
+}
+
+/* Lien actif dans la nav — RGAA 12.1 */
+.nav a[aria-current="page"] {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.nav a[aria-current="page"]::after {
+  width: 100%;
+}
+
+/* Abréviations */
+abbr[title] {
+  text-decoration: underline dotted;
+  cursor: help;
+}
+
+/* Champ obligatoire — RGAA 11.10 */
+.contact-form__required-note {
+  font-size: var(--text-sm);
+  color: var(--stone);
+  margin-bottom: var(--s4);
+}
+
+/* Fallback Cal.com */
+.cal-embed__fallback {
+  font-size: var(--text-sm);
+  color: var(--stone);
+  padding: var(--s4);
+}
+
+/* Réduction des mouvements — RGAA 13.8 */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .hero-video { display: none; }
+  .hero-video__overlay { display: none; }
 }
 
 /* Liens dans le texte courant */

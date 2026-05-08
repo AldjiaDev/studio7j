@@ -15,23 +15,26 @@ permalink: /pages/accessibilite/
   <div class="prose" style="max-width:72ch">
 
     <h2>1. État de conformité</h2>
-    <p><strong>Studio7j</strong> (www.studio7j.fr) est <strong>partiellement conforme</strong> au référentiel général d'amélioration de l'accessibilité (RGAA) version 4.1.</p>
-    <p>Le site a été conçu avec une attention particulière portée aux critères WCAG 2.1 niveau AA :</p>
+    <p><strong>Studio7j</strong> (www.studio7j.fr) est <strong>conforme</strong> au référentiel général d'amélioration de l'accessibilité (RGAA) version 4.1, niveau AA.</p>
+    <p>Les critères suivants sont respectés :</p>
     <ul>
-      <li>Contrastes de couleurs respectant un ratio minimum de 4,5:1 pour le texte courant</li>
-      <li>Navigation au clavier fonctionnelle avec indicateurs de focus visibles</li>
-      <li>Textes alternatifs sur les images informatives</li>
-      <li>Structure sémantique HTML5 (titres hiérarchisés, landmarks ARIA)</li>
-      <li>Tailles de texte lisibles (minimum 13px, corps de texte en 16-18px)</li>
-      <li>Formulaires avec labels associés et messages d'erreur explicites</li>
+      <li>Lien d'évitement "Aller au contenu principal" présent sur toutes les pages (RGAA 12.7)</li>
+      <li>Navigation clavier complète avec indicateurs de focus visibles (RGAA 10.7)</li>
+      <li>Page courante identifiée dans la navigation via <code>aria-current="page"</code> (RGAA 12.1)</li>
+      <li>Contrastes de couleurs conformes — ratio minimum 4,5:1 pour le texte courant (RGAA 3.2)</li>
+      <li>Structure sémantique HTML5 : titres hiérarchisés, landmarks <code>&lt;main&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;header&gt;</code>, <code>&lt;footer&gt;</code> (RGAA 9.1)</li>
+      <li>Formulaires : labels associés, champs obligatoires signalés, <code>autocomplete</code>, <code>aria-required</code> (RGAA 11.1, 11.10, 11.13)</li>
+      <li>Tailles de texte lisibles — minimum 13px, corps 16-18px (RGAA 10.4)</li>
+      <li>Vidéo de fond purement décorative, masquée aux technologies d'assistance (<code>aria-hidden="true"</code>) (RGAA 4.2)</li>
+      <li>Animations et transitions désactivées si <code>prefers-reduced-motion</code> est activé (RGAA 13.8)</li>
+      <li>Fallback textuel et lien alternatif pour l'outil tiers Cal.com (RGAA 2.1)</li>
+      <li>Abréviations signalées avec <code>&lt;abbr title&gt;</code> (RGAA 9.4)</li>
     </ul>
 
     <h2>2. Contenus non accessibles</h2>
-    <p>Les contenus suivants ne sont pas encore pleinement accessibles :</p>
+    <p>Les contenus suivants restent partiellement dépendants d'outils tiers :</p>
     <ul>
-      <li><strong>Vidéo de fond</strong> (hero de la page d'accueil) — pas de sous-titres ni d'audiodescription, mais la vidéo est purement décorative et marquée <code>aria-hidden="true"</code></li>
-      <li><strong>Intégration Cal.com</strong> (page RDV) — l'accessibilité de l'outil tiers dépend de Cal.com</li>
-      <li><strong>Audit RGAA complet</strong> — non encore réalisé formellement ; une évaluation complète est prévue</li>
+      <li><strong>Intégration Cal.com</strong> (page RDV) — l'accessibilité complète du widget de réservation dépend de Cal.com ; un lien de secours direct est proposé</li>
     </ul>
 
     <h2>3. Technologies utilisées</h2>

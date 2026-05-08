@@ -6,10 +6,10 @@
     </a>
 
     <nav class="nav" aria-label="Navigation principale">
-      <a href="{{ '/pages/offre/' | relative_url }}">Offre</a>
-      <a href="{{ '/pages/a-propos/' | relative_url }}">À propos</a>
-      <a href="{{ '/pages/journal/' | relative_url }}">Journal</a>
-      <a class="nav__cta" href="{{ '/pages/rdv/' | relative_url }}">Prendre un RDV</a>
+      <a href="{{ '/pages/offre/' | relative_url }}"{% if page.url contains '/pages/offre' %} aria-current="page"{% endif %}>Offre</a>
+      <a href="{{ '/pages/a-propos/' | relative_url }}"{% if page.url contains '/pages/a-propos' %} aria-current="page"{% endif %}>À propos</a>
+      <a href="{{ '/pages/journal/' | relative_url }}"{% if page.url contains '/pages/journal' or page.layout == 'post' %} aria-current="page"{% endif %}>Journal</a>
+      <a class="nav__cta" href="{{ '/pages/rdv/' | relative_url }}"{% if page.url contains '/pages/rdv' %} aria-current="page"{% endif %}>Prendre un RDV</a>
     </nav>
 
   </div>

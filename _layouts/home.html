@@ -11,8 +11,9 @@
   </head>
 
   <body>
+    <a class="skip-link" href="#main-content">Aller au contenu principal</a>
     {% include header.html %}
-    <main>{{ content }}</main>
+    <main id="main-content">{{ content }}</main>
     {% include footer.html %}
     <script defer src="{{ '/assets/js/main.js' | relative_url }}"></script>
     {% include structured-data.html %}

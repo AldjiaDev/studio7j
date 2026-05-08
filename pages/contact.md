@@ -41,27 +41,28 @@ permalink: /pages/contact/
 
     <!-- Colonne droite : formulaire -->
     <div class="contact-form-wrap">
-      <form name="contact" method="POST" data-netlify="true" action="{{ '/pages/merci/' | relative_url }}" class="contact-form">
+      <form name="contact" method="POST" data-netlify="true" action="{{ '/pages/merci/' | relative_url }}" class="contact-form" novalidate aria-label="Formulaire de contact Studio7j">
         <input type="hidden" name="form-name" value="contact" />
+        <p class="contact-form__required-note">Les champs marqués <abbr title="obligatoire">*</abbr> sont obligatoires.</p>
 
-        <label class="contact-label">
-          <span>Ton prénom</span>
-          <input name="name" type="text" placeholder="Marie" required />
+        <label class="contact-label" for="contact-name">
+          <span>Ton prénom <abbr title="obligatoire">*</abbr></span>
+          <input id="contact-name" name="name" type="text" placeholder="Marie" required aria-required="true" autocomplete="given-name" />
         </label>
 
-        <label class="contact-label">
-          <span>Ton email</span>
-          <input name="email" type="email" placeholder="marie@exemple.fr" required />
+        <label class="contact-label" for="contact-email">
+          <span>Ton email <abbr title="obligatoire">*</abbr></span>
+          <input id="contact-email" name="email" type="email" placeholder="marie@exemple.fr" required aria-required="true" autocomplete="email" />
         </label>
 
-        <label class="contact-label">
+        <label class="contact-label" for="contact-discipline">
           <span>Ta discipline <span class="contact-label__opt">(optionnel)</span></span>
-          <input name="discipline" type="text" placeholder="Céramiste, peintre, photographe…" />
+          <input id="contact-discipline" name="discipline" type="text" placeholder="Céramiste, peintre, photographe…" autocomplete="off" />
         </label>
 
-        <label class="contact-label">
-          <span>Ton message</span>
-          <textarea name="message" rows="5" placeholder="Dis-moi ce que tu as en tête…" required></textarea>
+        <label class="contact-label" for="contact-message">
+          <span>Ton message <abbr title="obligatoire">*</abbr></span>
+          <textarea id="contact-message" name="message" rows="5" placeholder="Dis-moi ce que tu as en tête…" required aria-required="true"></textarea>
         </label>
 
         <button class="btn btn--lg" type="submit" style="width:100%;justify-content:center">Envoyer le message</button>
