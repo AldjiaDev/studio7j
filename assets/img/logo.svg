@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80" role="img" aria-label="Studio7j">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,400&amp;family=DM+Sans:wght@500&amp;display=swap');
+      .logo-studio {
+        font-family: 'DM Sans', system-ui, sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        fill: #1A1714;
+      }
+      .logo-num {
+        font-family: 'Cormorant Garamond', Georgia, serif;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 52px;
+        fill: #C96B2D;
+        letter-spacing: -0.02em;
+      }
+    </style>
+  </defs>
+  <text class="logo-studio" x="4" y="34">Studio</text>
+  <text class="logo-num" x="0" y="74">7j</text>
+</svg>

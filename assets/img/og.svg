@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Studio7j — Sites portfolio pour artistes, livrés en 7 jours">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400&amp;family=DM+Sans:wght@400;500&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- Fond -->
+  <rect width="1200" height="630" fill="#1A1714"/>
+
+  <!-- Cadres décoratifs — inspiration hero -->
+  <rect x="40"  y="60"  width="130" height="170" fill="none" stroke="rgba(221,215,206,0.18)" stroke-width="1"/>
+  <rect x="60"  y="380" width="160" height="115" fill="none" stroke="rgba(221,215,206,0.12)" stroke-width="1"/>
+  <rect x="200" y="30"  width="100" height="200" fill="none" stroke="rgba(221,215,206,0.10)" stroke-width="1"/>
+  <rect x="900" y="50"  width="165" height="215" fill="none" stroke="rgba(221,215,206,0.18)" stroke-width="1"/>
+  <rect x="980" y="380" width="120" height="160" fill="none" stroke="rgba(221,215,206,0.12)" stroke-width="1"/>
+  <rect x="1080" y="120" width="90" height="130" fill="none" stroke="rgba(221,215,206,0.10)" stroke-width="1"/>
+  <rect x="820" y="420" width="110" height="80"  fill="none" stroke="rgba(221,215,206,0.10)" stroke-width="1"/>
+
+  <!-- Ligne décorative ochre gauche -->
+  <rect x="340" y="160" width="1" height="310" fill="#C96B2D" opacity="0.5"/>
+
+  <!-- Logo : STUDIO -->
+  <text
+    x="380" y="268"
+    font-family="'DM Sans', system-ui, sans-serif"
+    font-weight="500"
+    font-size="28"
+    letter-spacing="8"
+    text-transform="uppercase"
+    fill="#F7F4EF"
+    opacity="0.85">STUDIO</text>
+
+  <!-- Logo : 7j -->
+  <text
+    x="372" y="370"
+    font-family="'Cormorant Garamond', Georgia, 'Times New Roman', serif"
+    font-style="italic"
+    font-weight="400"
+    font-size="120"
+    letter-spacing="-2"
+    fill="#C96B2D">7j</text>
+
+  <!-- Tagline -->
+  <text
+    x="380" y="420"
+    font-family="'DM Sans', system-ui, sans-serif"
+    font-weight="400"
+    font-size="20"
+    letter-spacing="1"
+    fill="#F7F4EF"
+    opacity="0.55">Sites portfolio pour artistes — livré en 7 jours</text>
+
+  <!-- URL -->
+  <text
+    x="380" y="480"
+    font-family="'DM Sans', system-ui, sans-serif"
+    font-weight="400"
+    font-size="16"
+    letter-spacing="0.5"
+    fill="#C96B2D"
+    opacity="0.8">www.studio7j.fr</text>
+
+</svg>
