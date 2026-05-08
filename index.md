@@ -16,34 +16,30 @@ description: "Studio7j crée des sites portfolio pour artistes et artisans : ren
     </div>
   </div>
   <div class="lp-hero__visual" aria-hidden="true">
-    <div class="mockup">
-      <div class="mockup__bar">
-        <span class="mockup__dot mockup__dot--red"></span>
-        <span class="mockup__dot mockup__dot--yellow"></span>
-        <span class="mockup__dot mockup__dot--green"></span>
-        <span class="mockup__url">marie-dupont.fr</span>
+    <div class="gallery-wall">
+
+      <div class="gallery-frame gallery-frame--main">
+        <div class="gallery-frame__mat">
+          <div class="gallery-frame__art gallery-frame__art--1"></div>
+        </div>
+        <p class="gallery-frame__caption"><em>Sans titre, I</em> &nbsp;·&nbsp; Huile sur toile &nbsp;·&nbsp; 2024</p>
       </div>
-      <div class="mockup__body">
-        <div class="mockup__sitenav">
-          <span class="mockup__logo-line"></span>
-          <div class="mockup__nav-links">
-            <span class="mockup__nav-link"></span>
-            <span class="mockup__nav-link"></span>
-            <span class="mockup__nav-link mockup__nav-link--cta"></span>
+
+      <div class="gallery-wall__side">
+        <div class="gallery-frame">
+          <div class="gallery-frame__mat">
+            <div class="gallery-frame__art gallery-frame__art--2"></div>
           </div>
+          <p class="gallery-frame__caption"><em>Série Terre</em> &nbsp;·&nbsp; Céramique &nbsp;·&nbsp; 2023</p>
         </div>
-        <div class="mockup__cover">
-          <p class="mockup__artist-name"><em>Marie Dupont</em></p>
-          <p class="mockup__artist-tag">Céramiste</p>
+        <div class="gallery-frame">
+          <div class="gallery-frame__mat">
+            <div class="gallery-frame__art gallery-frame__art--3"></div>
+          </div>
+          <p class="gallery-frame__caption"><em>Atelier II</em> &nbsp;·&nbsp; Photographie &nbsp;·&nbsp; 2024</p>
         </div>
-        <div class="mockup__gallery">
-          <div class="mockup__thumb mockup__thumb--1"></div>
-          <div class="mockup__thumb mockup__thumb--2"></div>
-          <div class="mockup__thumb mockup__thumb--3"></div>
-          <div class="mockup__thumb mockup__thumb--4"></div>
-        </div>
-        <div class="mockup__footer-line"></div>
       </div>
+
     </div>
   </div>
 </section>

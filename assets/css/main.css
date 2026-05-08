@@ -741,16 +741,88 @@ textarea { resize: vertical; min-height: 120px; }
   font-size: var(--text-base);
 }
 
-/* ── Mockup CSS (browser portfolio) ─────────────────── */
+/* ── Mur de galerie — cadres CSS ─────────────────────── */
 @keyframes float {
-  0%, 100% { transform: translateY(0px);   }
-  50%       { transform: translateY(-10px); }
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-8px); }
 }
 
 .lp-hero__visual {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+}
+
+.gallery-wall {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: var(--s5);
+  width: 100%;
+  animation: float 8s ease-in-out infinite;
+}
+
+.gallery-wall__side {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s5);
+  padding-top: var(--s10);
+}
+
+/* Cadre individuel */
+.gallery-frame {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s2);
+}
+
+/* Le passe-partout blanc + cadre */
+.gallery-frame__mat {
+  background: var(--white);
+  padding: 10px;
+  border: 1.5px solid #C8BEB4;
+  box-shadow:
+    0 2px 6px rgba(26,23,20,0.07),
+    0 8px 32px rgba(26,23,20,0.10);
+  position: relative;
+}
+
+/* Filet intérieur décoratif (comme un vrai passe-partout) */
+.gallery-frame__mat::after {
+  content: '';
+  position: absolute;
+  inset: 5px;
+  border: 0.5px solid rgba(200,190,180,0.6);
+  pointer-events: none;
+}
+
+/* Zone "artwork" */
+.gallery-frame__art {
+  width: 100%;
+  display: block;
+}
+
+.gallery-frame--main .gallery-frame__art {
+  aspect-ratio: 3/4;
+}
+
+.gallery-wall__side .gallery-frame__art {
+  aspect-ratio: 4/3;
+}
+
+/* Tons chauds — évoquent de vraies œuvres */
+.gallery-frame__art--1 { background: linear-gradient(145deg, #C4AA90 0%, #B09478 50%, #C8B4A0 100%); }
+.gallery-frame__art--2 { background: linear-gradient(135deg, #8A9E8C 0%, #7A9080 60%, #A0B4A0 100%); }
+.gallery-frame__art--3 { background: linear-gradient(155deg, #A89280 0%, #C0A898 50%, #988070 100%); }
+
+/* Légende sous le cadre */
+.gallery-frame__caption {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 11px;
+  color: var(--stone);
+  line-height: 1.4;
+  padding-left: 2px;
+  letter-spacing: 0.01em;
 }
 
 .mockup {
