@@ -6,6 +6,14 @@ description: "Studio7j crée des sites portfolio pour artistes et artisans : ren
 
 <!-- ══ HERO ════════════════════════════════════════════ -->
 <section class="lp-hero">
+
+  <!-- Vidéo de fond -->
+  <video class="hero-video" autoplay muted loop playsinline aria-hidden="true">
+    <source src="{{ '/assets/videos/hero-atelier-artiste.mp4' | relative_url }}" type="video/mp4">
+  </video>
+  <div class="hero-video__overlay" aria-hidden="true"></div>
+
+  <!-- Contenu -->
   <div class="lp-hero__content">
     <span class="eyebrow">Agence web pour artistes</span>
     <h1 class="lp-hero__h1">Ton travail mérite<br>un site<br><em>à sa hauteur.</em></h1>
@@ -15,33 +23,7 @@ description: "Studio7j crée des sites portfolio pour artistes et artisans : ren
       <a class="btn btn--ghost btn--lg" href="{{ '/pages/offre/' | relative_url }}">Voir l'offre</a>
     </div>
   </div>
-  <div class="lp-hero__visual" aria-hidden="true">
-    <div class="gallery-wall">
 
-      <div class="gallery-frame gallery-frame--main">
-        <div class="gallery-frame__mat">
-          <div class="gallery-frame__art gallery-frame__art--1"></div>
-        </div>
-        <p class="gallery-frame__caption"><em>Sans titre, I</em> &nbsp;·&nbsp; Huile sur toile &nbsp;·&nbsp; 2024</p>
-      </div>
-
-      <div class="gallery-wall__side">
-        <div class="gallery-frame">
-          <div class="gallery-frame__mat">
-            <div class="gallery-frame__art gallery-frame__art--2"></div>
-          </div>
-          <p class="gallery-frame__caption"><em>Série Terre</em> &nbsp;·&nbsp; Céramique &nbsp;·&nbsp; 2023</p>
-        </div>
-        <div class="gallery-frame">
-          <div class="gallery-frame__mat">
-            <div class="gallery-frame__art gallery-frame__art--3"></div>
-          </div>
-          <p class="gallery-frame__caption"><em>Atelier II</em> &nbsp;·&nbsp; Photographie &nbsp;·&nbsp; 2024</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
 </section>
 
 <!-- ══ STATS ══════════════════════════════════════════ -->

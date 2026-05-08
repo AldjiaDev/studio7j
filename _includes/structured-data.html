@@ -1,12 +1,158 @@
+<!-- Schema: Organization -->
 <script type="application/ld+json">
 {
-  "@context":"https://schema.org",
-  "@type":"ProfessionalService",
-  "name":"Studio7j",
-  "url":"{{ site.url }}",
-  "areaServed":"FR",
-  "inLanguage":"fr",
-  "description":"{{ site.description | escape }}",
-  "serviceType":"Création de site web"
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Studio7j",
+  "url": "{{ site.url }}",
+  "logo": "{{ site.url }}/assets/img/og.jpg",
+  "description": "Studio7j crée des sites portfolio sur-mesure pour artistes et artisans d'art : rendu galerie, SEO-first, livré en 7 jours.",
+  "areaServed": {
+    "@type": "Country",
+    "name": "France"
+  },
+  "inLanguage": "fr",
+  "serviceType": [
+    "Création de site d'artiste",
+    "Site portfolio sur-mesure",
+    "Site web artisan d'art",
+    "Référencement naturel pour artistes",
+    "Site peintre",
+    "Site céramiste",
+    "Site sculpteur",
+    "Site photographe professionnel",
+    "Site joaillier"
+  ],
+  "knowsAbout": [
+    "Portfolio en ligne pour artistes",
+    "SEO pour artistes",
+    "Site web pour artisans d'art",
+    "Création de site internet",
+    "Référencement Google artiste"
+  ],
+  "offers": {
+    "@type": "Offer",
+    "name": "Site portfolio artiste — livraison 7 jours",
+    "description": "Site d'artiste sur-mesure : rendu galerie, SEO-first, responsive, livré en 7 jours. Inclut cadrage, design, développement, mise en ligne.",
+    "priceCurrency": "EUR",
+    "availability": "https://schema.org/InStock"
+  },
+  "sameAs": [
+    "{{ site.url }}"
+  ]
 }
 </script>
+
+<!-- Schema: WebSite avec SearchAction -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Studio7j",
+  "url": "{{ site.url }}",
+  "description": "Agence web spécialisée dans les sites pour artistes et artisans d'art. Rendu galerie, SEO-first, livraison en 7 jours.",
+  "inLanguage": "fr",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ site.url }}/journal/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+{% if page.url == "/" %}
+<!-- Schema: FAQPage (landing page uniquement) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Combien coûte un site d'artiste professionnel ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Studio7j propose un forfait tout inclus pour la création d'un site d'artiste sur-mesure : cadrage, design, développement, mise en ligne. Le tarif est défini avant de commencer, sans surprise. Réservez un RDV de cadrage gratuit de 20 minutes pour en discuter."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "En combien de temps mon site d'artiste est-il livré ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Studio7j livre les sites d'artistes en 7 jours après le RDV de cadrage et la fourniture des contenus (textes et images). Ce délai inclut design, développement, SEO et mise en ligne sur GitHub Pages."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Le site est-il optimisé pour Google (SEO) ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui. Le référencement naturel est intégré dès la conception : structure sémantique, balises meta, titres optimisés, vitesse de chargement, données structurées Schema.org. Studio7j est spécialisé dans le SEO pour artistes et artisans d'art."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Est-ce que je peux modifier le site moi-même après la livraison ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui. Le site est livré avec une interface simple pour modifier les textes et les images sans toucher au code. Une prise en main est incluse à la livraison."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quels types d'artistes et artisans travaillent avec Studio7j ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Studio7j crée des sites pour les peintres, sculpteurs, céramistes, photographes, joailliers, illustrateurs et artisans d'art en général. Si vous produisez un travail visuel et souhaitez être visible en ligne, Studio7j est fait pour vous."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Y a-t-il des frais d'hébergement récurrents ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Non. Les sites Studio7j sont hébergés sur GitHub Pages, une solution gratuite, fiable et pérenne. Aucun abonnement mensuel n'est à prévoir pour l'hébergement."
+      }
+    }
+  ]
+}
+</script>
+{% endif %}
+
+{% if page.layout == "post" %}
+<!-- Schema: Article (articles de blog) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ page.title | escape }}",
+  "description": "{{ page.description | escape }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.date | date_to_xmlschema }}",
+  "author": {
+    "@type": "Organization",
+    "name": "Studio7j",
+    "url": "{{ site.url }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Studio7j",
+    "url": "{{ site.url }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}/assets/img/og.jpg"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.url | absolute_url }}"
+  },
+  "inLanguage": "fr",
+  "about": {
+    "@type": "Thing",
+    "name": "Site web pour artistes et artisans d'art"
+  }
+}
+</script>
+{% endif %}

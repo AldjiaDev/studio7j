@@ -4,17 +4,19 @@ layout: default
 <article class="post">
 
   <header class="post__header">
-    <div class="post__meta">
-      <span class="post__date">{{ page.date | date: "%d %B %Y" }}</span>
-      {% if page.reading_time %}
-      <span class="post__sep">·</span>
-      <span class="post__time">{{ page.reading_time }} min de lecture</span>
+    <div class="post__header-inner">
+      <div class="post__meta">
+        <span class="post__date">{{ page.date | date: "%d %B %Y" }}</span>
+        {% if page.reading_time %}
+        <span class="post__sep">·</span>
+        <span class="post__time">{{ page.reading_time }} min de lecture</span>
+        {% endif %}
+      </div>
+      <h1 class="post__title">{{ page.title }}</h1>
+      {% if page.description %}
+      <p class="post__lead">{{ page.description }}</p>
       {% endif %}
     </div>
-    <h1 class="h1 post__title">{{ page.title }}</h1>
-    {% if page.description %}
-    <p class="lead post__lead">{{ page.description }}</p>
-    {% endif %}
   </header>
 
   <div class="post__body prose">
@@ -22,10 +24,10 @@ layout: default
   </div>
 
   <footer class="post__footer">
-    <div class="section--cta">
-      <span class="eyebrow">Tu veux un site comme ça ?</span>
-      <h2 class="h2">Parlons de ton projet.</h2>
-      <p class="lead">RDV de cadrage — 20 min, gratuit, sans engagement.</p>
+    <div class="post__cta">
+      <span class="eyebrow">Studio7j</span>
+      <h2 class="post__cta-title">Ton travail mérite<br>un site à sa hauteur.</h2>
+      <p class="post__cta-lead">RDV de cadrage — 20 min, gratuit, sans engagement.</p>
       {% include cta-rdv.html %}
     </div>
     <p class="post__back"><a href="{{ '/pages/journal/' | relative_url }}">← Retour au journal</a></p>
