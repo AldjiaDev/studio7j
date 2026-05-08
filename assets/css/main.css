@@ -714,6 +714,20 @@ textarea { resize: vertical; min-height: 120px; }
   font-weight: 400;
 }
 
+.footer__legal-link {
+  font-size: 13px;
+  color: rgba(247,244,239,0.65);
+  font-weight: 400;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  margin-right: var(--s4);
+  transition: color var(--ease);
+}
+
+.footer__legal-link:hover {
+  color: var(--cream);
+}
+
 /* Watermark supprimé */
 .footer__watermark { display: none; }
 
