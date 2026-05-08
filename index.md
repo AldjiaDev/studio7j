@@ -20,7 +20,8 @@ description: "Studio7j crée des sites portfolio pour artistes et artisans : ren
       var srcs = [
         '{{ "/assets/videos/hero-atelier-artiste.mp4" | relative_url }}',
         '{{ "/assets/videos/hero-atelier-art.mp4" | relative_url }}',
-        '{{ "/assets/videos/atelier-art.mp4" | relative_url }}'
+        '{{ "/assets/videos/atelier-art.mp4" | relative_url }}',
+        '{{ "/assets/videos/hero-atelier-photo.mp4" | relative_url }}'
       ];
       var idx = 0;
       var active = document.getElementById('hero-vid-a');
