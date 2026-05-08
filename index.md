@@ -7,26 +7,43 @@ description: "Studio7j crée des sites portfolio pour artistes et artisans : ren
 <!-- ══ HERO ════════════════════════════════════════════ -->
 <section class="lp-hero">
 
-  <!-- Vidéo de fond (défilement en boucle) -->
-  <video id="hero-video" class="hero-video" autoplay muted playsinline aria-hidden="true">
+  <!-- Vidéo de fond (double buffer, transition sans flash) -->
+  <video id="hero-vid-a" class="hero-video" autoplay muted playsinline aria-hidden="true" style="opacity:1">
     <source src="{{ '/assets/videos/hero-atelier-artiste.mp4' | relative_url }}" type="video/mp4">
+  </video>
+  <video id="hero-vid-b" class="hero-video" muted playsinline aria-hidden="true" style="opacity:0">
+    <source src="{{ '/assets/videos/hero-atelier-art.mp4' | relative_url }}" type="video/mp4">
   </video>
   <div class="hero-video__overlay" aria-hidden="true"></div>
   <script>
     (function() {
-      var videos = [
+      var srcs = [
         '{{ "/assets/videos/hero-atelier-artiste.mp4" | relative_url }}',
         '{{ "/assets/videos/hero-atelier-art.mp4" | relative_url }}',
         '{{ "/assets/videos/atelier-art.mp4" | relative_url }}'
       ];
-      var current = 0;
-      var v = document.getElementById('hero-video');
-      v.addEventListener('ended', function() {
-        current = (current + 1) % videos.length;
-        v.querySelector('source').src = videos[current];
-        v.load();
-        v.play();
-      });
+      var idx = 0;
+      var active = document.getElementById('hero-vid-a');
+      var standby = document.getElementById('hero-vid-b');
+
+      function preloadNext() {
+        var next = (idx + 1) % srcs.length;
+        standby.querySelector('source').src = srcs[next];
+        standby.load();
+      }
+
+      function swap() {
+        idx = (idx + 1) % srcs.length;
+        standby.style.opacity = '1';
+        active.style.opacity = '0';
+        standby.play();
+        var tmp = active; active = standby; standby = tmp;
+        preloadNext();
+      }
+
+      active.addEventListener('ended', swap);
+      standby.addEventListener('ended', swap);
+      preloadNext();
     })();
   </script>
 
