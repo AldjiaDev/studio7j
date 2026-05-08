@@ -93,3 +93,13 @@ Un site d'artiste efficace, c'est :
 - Une adresse URL propre, facile à partager
 
 Le reste, c'est du bonus.
+
+## Pour aller plus loin
+
+Selon votre discipline, consultez nos pages dédiées :
+
+- [Site de peintre](/site-peintre/) — rendu galerie HD, séries, démarche artistique
+- [Site de céramiste](/site-ceramiste/) — catalogue de pièces, commandes sur mesure
+- [Site de photographe](/site-photographe/) — galeries rapides, SEO par spécialité
+- [Site de sculpteur](/site-sculpteur/) — vues multi-angles, matériaux, expositions
+- [Site de joaillier](/site-joaillier/) — collections, savoir-faire, rendez-vous atelier

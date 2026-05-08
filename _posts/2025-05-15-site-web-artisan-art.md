@@ -73,3 +73,12 @@ La solution est simple : compresser les images avant de les mettre en ligne, san
 - **Contact** : simple, sans friction, avec délai de réponse indicatif
 
 Studio7j construit ce type de site en 7 jours, pour les artisans d'art qui veulent une présence en ligne à la hauteur de leur savoir-faire.
+
+## Pour aller plus loin
+
+Selon votre discipline, consultez nos pages dédiées :
+
+- [Site de céramiste](/site-ceramiste/) — catalogue de pièces, commandes, SEO local
+- [Site de joaillier](/site-joaillier/) — collections, savoir-faire orfèvre, commandes sur mesure
+- [Site de sculpteur](/site-sculpteur/) — vues multi-angles, matériaux, installations
+- [Guide complet : créer un site d'artiste](/site-artiste/)

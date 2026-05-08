@@ -60,3 +60,9 @@ Le matériel peut figurer en bas de page, pour les curieux. La personnalité doi
 Studio7j construit des sites portfolio pour photographes qui répondent à ces six critères : chargement rapide, spécialisation claire, galeries organisées, textes optimisés pour Google, appels à l'action efficaces.
 
 Livré en 7 jours, sans compromis sur la qualité visuelle.
+
+## Pour aller plus loin
+
+- [Site de photographe professionnel — notre page dédiée](/site-photographe/)
+- [Guide complet : créer un site d'artiste](/site-artiste/)
+- [Pourquoi Instagram ne suffit plus](/journal/instagram-ne-suffit-plus/)

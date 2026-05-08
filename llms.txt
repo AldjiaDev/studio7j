@@ -1,0 +1,73 @@
+# Studio7j
+
+> Agence web française spécialisée dans la création de sites portfolio pour artistes et artisans d'art. Sites sur-mesure, rendu galerie, SEO-first, livrés en 7 jours.
+
+Studio7j est une agence web à taille humaine, créée pour répondre à un besoin précis : les artistes et artisans d'art ont besoin de sites professionnels qui leur ressemblent, qui se référencent bien sur Google, et qui génèrent des contacts qualifiés.
+
+L'agence ne fait pas de sites généralistes. Elle se spécialise exclusivement dans les portfolios d'artistes et les sites pour artisans d'art : peintres, sculpteurs, céramistes, photographes, joailliers, illustrateurs et créateurs visuels en général.
+
+## Services proposés
+
+- Création de site portfolio pour peintre (toutes techniques : huile, aquarelle, acrylique, abstrait, figuratif)
+- Création de site pour céramiste et potier (grès, porcelaine, faïence, raku, pièces uniques et sur commande)
+- Création de site portfolio pour sculpteur (bronze, marbre, bois, installations, commandes)
+- Création de site pour photographe professionnel (mariage, architecture, portrait, mode, culinaire, tirages d'art)
+- Création de site pour joaillier et bijoutier d'art (collections, commandes sur mesure, rendez-vous atelier)
+- Création de site pour artisan d'art (luthier, tapissier, verrier, brodeur, relieur, etc.)
+
+## Caractéristiques techniques
+
+- Sites statiques (Jekyll + GitHub Pages) : rapides, fiables, sans frais d'hébergement récurrents
+- SEO intégré dès la conception : structure sémantique, balises meta, données structurées Schema.org
+- Responsive design : optimisé pour mobile, tablette et desktop
+- Accessibilité WCAG AA
+- Livraison en 7 jours ouvrés après cadrage et fourniture des contenus
+
+## Process de travail
+
+1. RDV de cadrage (20 minutes, gratuit) — clarification du projet, structure, style, contenu
+2. Design et développement — 7 jours
+3. Mise en ligne sur GitHub Pages
+4. Prise en main — le client peut modifier textes et images sans toucher au code
+
+## Pages importantes
+
+- [Accueil](https://studio7j.fr/)
+- [L'offre complète](https://studio7j.fr/pages/offre/)
+- [À propos de Studio7j](https://studio7j.fr/pages/a-propos/)
+- [Réserver un RDV de cadrage](https://studio7j.fr/pages/rdv/)
+- [Contact](https://studio7j.fr/pages/contact/)
+
+## Pages SEO par discipline
+
+- [Créer un site d'artiste — guide complet](https://studio7j.fr/site-artiste/)
+- [Site de peintre professionnel](https://studio7j.fr/site-peintre/)
+- [Site de céramiste](https://studio7j.fr/site-ceramiste/)
+- [Site de sculpteur](https://studio7j.fr/site-sculpteur/)
+- [Site de photographe](https://studio7j.fr/site-photographe/)
+- [Site de joaillier](https://studio7j.fr/site-joaillier/)
+
+## Articles de blog (Journal)
+
+- [Comment créer un site d'artiste qui travaille vraiment pour toi](https://studio7j.fr/journal/comment-creer-site-artiste/)
+- [Pourquoi Instagram ne suffit plus pour un artiste professionnel](https://studio7j.fr/journal/instagram-ne-suffit-plus/)
+- [5 erreurs qui tuent un site d'artiste](https://studio7j.fr/journal/erreurs-site-artiste/)
+- [Site web pour artisan d'art : ce qu'il doit contenir](https://studio7j.fr/journal/site-web-artisan-art/)
+- [Site portfolio photographe : les 6 critères d'un site qui génère des commandes](https://studio7j.fr/journal/site-portfolio-photographe/)
+
+## Questions fréquentes
+
+**Combien coûte un site d'artiste ?**
+Le tarif est défini lors du RDV de cadrage, avant tout engagement. Pas de surprise en cours de route.
+
+**En combien de temps le site est-il livré ?**
+7 jours ouvrés après le RDV de cadrage et la fourniture des contenus (textes et images).
+
+**Le site est-il référencé sur Google ?**
+Oui. Le SEO est intégré dès la conception : structure sémantique, mots-clés métier, données structurées, vitesse de chargement.
+
+**Y a-t-il des frais d'hébergement ?**
+Non. Les sites Studio7j sont hébergés sur GitHub Pages — gratuit, fiable, pérenne.
+
+**Puis-je modifier le site moi-même ?**
+Oui. Une interface simple permet de modifier textes et images sans toucher au code. Prise en main incluse à la livraison.
