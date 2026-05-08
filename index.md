@@ -7,11 +7,28 @@ description: "Studio7j crée des sites portfolio pour artistes et artisans : ren
 <!-- ══ HERO ════════════════════════════════════════════ -->
 <section class="lp-hero">
 
-  <!-- Vidéo de fond -->
-  <video class="hero-video" autoplay muted loop playsinline aria-hidden="true">
+  <!-- Vidéo de fond (défilement en boucle) -->
+  <video id="hero-video" class="hero-video" autoplay muted playsinline aria-hidden="true">
     <source src="{{ '/assets/videos/hero-atelier-artiste.mp4' | relative_url }}" type="video/mp4">
   </video>
   <div class="hero-video__overlay" aria-hidden="true"></div>
+  <script>
+    (function() {
+      var videos = [
+        '{{ "/assets/videos/hero-atelier-artiste.mp4" | relative_url }}',
+        '{{ "/assets/videos/hero-atelier-art.mp4" | relative_url }}',
+        '{{ "/assets/videos/atelier-art.mp4" | relative_url }}'
+      ];
+      var current = 0;
+      var v = document.getElementById('hero-video');
+      v.addEventListener('ended', function() {
+        current = (current + 1) % videos.length;
+        v.querySelector('source').src = videos[current];
+        v.load();
+        v.play();
+      });
+    })();
+  </script>
 
   <!-- Contenu -->
   <div class="lp-hero__content">
