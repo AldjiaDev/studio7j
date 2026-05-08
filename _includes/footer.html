@@ -48,7 +48,10 @@
 
     <div class="footer__bottom">
       <p>© {{ "now" | date: "%Y" }} Studio7j</p>
-      <p>Fait avec soin — hébergé sur GitHub Pages</p>
+      <p>
+        <a href="{{ '/pages/rgpd/' | relative_url }}" style="color:inherit;text-decoration:none;margin-right:var(--s4)">Confidentialité</a>
+        <a href="{{ '/pages/accessibilite/' | relative_url }}" style="color:inherit;text-decoration:none">Accessibilité</a>
+      </p>
     </div>
   </div>
 
