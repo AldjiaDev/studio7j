@@ -1,12 +1,19 @@
 <footer class="site-footer">
   <div class="footer__grid">
     <div>
-      <p class="small">© {{ "now" | date: "%Y" }} Studio7j</p>
-      <p class="small">Sites portfolio pour artistes — rendu galerie — livraison en 7 jours.</p>
+      <p class="footer__brand">Studio7j</p>
+      <p class="small">Sites portfolio pour artistes — rendu galerie — 7 jours.</p>
+      <p class="small">© {{ "now" | date: "%Y" }} Studio7j. Tous droits réservés.</p>
+    </div>
+    <div>
+      <p class="small"><a href="{{ '/pages/offre/' | relative_url }}">L'offre</a></p>
+      <p class="small"><a href="{{ '/pages/site-artiste/' | relative_url }}">Site d'artiste</a></p>
+      <p class="small"><a href="{{ '/pages/journal/' | relative_url }}">Journal</a></p>
     </div>
     <div>
       <p class="small"><a href="{{ '/pages/rdv/' | relative_url }}">Réserver un RDV</a></p>
       <p class="small"><a href="{{ '/pages/contact/' | relative_url }}">Contact</a></p>
+      <p class="small"><a href="{{ '/pages/a-propos/' | relative_url }}">À propos</a></p>
     </div>
   </div>
 </footer>
