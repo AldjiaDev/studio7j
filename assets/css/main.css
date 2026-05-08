@@ -16,7 +16,7 @@
   --ink-60:      rgba(26, 23, 20, 0.60);
   --ink-20:      rgba(26, 23, 20, 0.20);
   --ink-08:      rgba(26, 23, 20, 0.08);
-  --stone:       #7A746C;
+  --stone:       #5C5650;   /* #7A746C → #5C5650 : ratio 6.5:1 sur cream, WCAG AA ✓ */
   --sand:        #DDD7CE;
   --ochre:       #C96B2D;
   --ochre-dark:  #A85523;
@@ -26,11 +26,11 @@
   --font-display: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
   --font-body:    'DM Sans', system-ui, -apple-system, sans-serif;
 
-  /* Échelle typographique */
-  --text-2xs: 10px;
-  --text-xs:  11px;
-  --text-sm:  13px;
-  --text-base: 15px;
+  /* Échelle typographique — minimums WCAG */
+  --text-2xs: 11px;
+  --text-xs:  12px;
+  --text-sm:  14px;
+  --text-base: 16px;
   --text-md:  18px;
   --text-lg:  24px;
   --text-xl:  36px;
@@ -67,10 +67,28 @@ body {
   color: var(--ink);
   font-family: var(--font-body);
   font-size: var(--text-base);
-  font-weight: 300;
-  line-height: 1.65;
+  font-weight: 400;
+  line-height: 1.7;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Focus visible — navigation clavier */
+:focus-visible {
+  outline: 2px solid var(--ochre);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* Liens dans le texte courant */
+.prose a, .post__body a {
+  color: var(--ochre);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.prose a:hover, .post__body a:hover {
+  color: var(--ochre-dark);
 }
 
 a          { color: inherit; text-decoration: none; }
@@ -207,8 +225,8 @@ em         { font-style: italic; }
 .lead {
   font-size: var(--text-md);
   color: var(--stone);
-  font-weight: 300;
-  line-height: 1.6;
+  font-weight: 400;
+  line-height: 1.65;
   margin: 0 0 var(--s4);
 }
 
@@ -343,7 +361,7 @@ em         { font-style: italic; }
 .card p {
   color: var(--stone);
   font-size: var(--text-sm);
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.65;
   margin: 0;
 }
@@ -383,13 +401,13 @@ em         { font-style: italic; }
 
 .prose p {
   margin-bottom: var(--s4);
-  color: var(--stone);
-  line-height: 1.72;
+  color: var(--ink);
+  line-height: 1.75;
 }
 
 .prose ul, .prose ol {
   padding-left: var(--s5);
-  color: var(--stone);
+  color: var(--ink);
   margin-bottom: var(--s4);
 }
 
@@ -492,12 +510,12 @@ textarea { resize: vertical; min-height: 120px; }
 }
 
 .site-footer .small {
-  color: rgba(247, 244, 239, 0.45);
+  color: rgba(247, 244, 239, 0.70);  /* 0.45 → 0.70 : lisible sur fond ink */
   margin: var(--s2) 0;
 }
 
 .site-footer a {
-  color: rgba(247, 244, 239, 0.65);
+  color: rgba(247, 244, 239, 0.85);
   transition: color var(--ease);
 }
 
@@ -865,8 +883,8 @@ textarea { resize: vertical; min-height: 120px; }
 
 .problem-item__desc {
   font-size: var(--text-sm);
-  color: rgba(247,244,239,0.45);
-  font-weight: 300;
+  color: rgba(247,244,239,0.75);  /* 0.45 → 0.75 : lisible sur fond sombre */
+  font-weight: 400;
   line-height: 1.6;
 }
 
@@ -909,7 +927,7 @@ textarea { resize: vertical; min-height: 120px; }
 .step p {
   font-size: var(--text-sm);
   color: var(--stone);
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.65;
   margin-bottom: var(--s2);
 }
@@ -957,7 +975,7 @@ textarea { resize: vertical; min-height: 120px; }
 .feature p {
   font-size: var(--text-sm);
   color: var(--stone);
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.65;
 }
 
@@ -1066,7 +1084,7 @@ textarea { resize: vertical; min-height: 120px; }
 .faq-item dd {
   font-size: var(--text-sm);
   color: var(--stone);
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.72;
 }
 
@@ -1092,11 +1110,11 @@ textarea { resize: vertical; min-height: 120px; }
 .lp-final-cta__title em { color: rgba(247,244,239,0.35); }
 
 .lp-final-cta__lead {
-  color: rgba(247,244,239,0.5);
+  color: rgba(247,244,239,0.80);
   font-size: var(--text-md);
   max-width: 40ch;
   margin: 0 auto var(--s8);
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.65;
 }
 
@@ -1192,7 +1210,7 @@ textarea { resize: vertical; min-height: 120px; }
 .blog-card__excerpt {
   font-size: var(--text-sm);
   color: var(--stone);
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.65;
   max-width: 60ch;
   margin-bottom: var(--s5);
@@ -1416,7 +1434,7 @@ textarea { resize: vertical; min-height: 120px; }
 .offer-noninclude__desc {
   font-size: var(--text-sm);
   color: var(--stone);
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.65;
 }
 
@@ -1494,7 +1512,7 @@ textarea { resize: vertical; min-height: 120px; }
 .timeline-item__content p {
   font-size: var(--text-sm);
   color: var(--stone);
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.65;
 }
 
@@ -1544,7 +1562,7 @@ textarea { resize: vertical; min-height: 120px; }
 .offer-guarantee__desc {
   font-size: var(--text-sm);
   color: var(--stone);
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.65;
 }
 
