@@ -95,7 +95,7 @@ description: "Studio7j crée des sites portfolio pour artistes et artisans : ren
       <div class="step">
         <span class="step__num">03</span>
         <h3>Mise en ligne</h3>
-        <p>Ton site en production. Domaine, hébergement, SSL — tout est configuré. Tu n'as plus qu'à partager l'URL.</p>
+        <p>Ton site en production sur GitHub Pages. Hébergement gratuit, SSL inclus. Tu n'as plus qu'à partager l'URL.</p>
         <p class="step__detail">Délai total : 7 jours</p>
       </div>
     </div>
@@ -140,8 +140,8 @@ description: "Studio7j crée des sites portfolio pour artistes et artisans : ren
         <div class="feature__icon" aria-hidden="true">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1.2"/><path d="M8 4.5v3.5h3.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
         </div>
-        <h3>Domaine &amp; hébergement</h3>
-        <p>Tout inclus la première année. Ton nom de domaine, l'hébergement, le certificat SSL.</p>
+        <h3>Hébergement gratuit</h3>
+        <p>Site déployé sur GitHub Pages — hébergement pérenne, sans frais mensuels, avec ton propre nom de domaine si tu en as un.</p>
       </div>
       <div class="feature">
         <div class="feature__icon" aria-hidden="true">
@@ -167,7 +167,7 @@ description: "Studio7j crée des sites portfolio pour artistes et artisans : ren
         <li>Design sur-mesure, rendu galerie</li>
         <li>Développement &amp; intégration de ton contenu</li>
         <li>SEO on-page optimisé</li>
-        <li>Domaine + hébergement (1 an)</li>
+        <li>Hébergement gratuit sur GitHub Pages</li>
         <li>Mise en ligne complète</li>
         <li>1 vague de retours incluse</li>
       </ul>
