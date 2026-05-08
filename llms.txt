@@ -32,39 +32,39 @@ L'agence ne fait pas de sites généralistes. Elle se spécialise exclusivement 
 
 ## Pages importantes
 
-- [Accueil](https://studio7j.fr/)
-- [L'offre complète](https://studio7j.fr/pages/offre/)
-- [À propos de Studio7j](https://studio7j.fr/pages/a-propos/)
-- [Réserver un RDV de cadrage](https://studio7j.fr/pages/rdv/)
-- [Contact](https://studio7j.fr/pages/contact/)
+- [Accueil](https://www.studio7j.fr/)
+- [L'offre complète](https://www.studio7j.fr/pages/offre/)
+- [À propos de Studio7j](https://www.studio7j.fr/pages/a-propos/)
+- [Réserver un RDV de cadrage](https://www.studio7j.fr/pages/rdv/)
+- [Contact](https://www.studio7j.fr/pages/contact/)
 
 ## Pages SEO par discipline
 
-- [Créer un site d'artiste — guide complet](https://studio7j.fr/site-artiste/)
-- [Site de peintre professionnel](https://studio7j.fr/site-peintre/)
-- [Site de céramiste](https://studio7j.fr/site-ceramiste/)
-- [Site de sculpteur](https://studio7j.fr/site-sculpteur/)
-- [Site de photographe](https://studio7j.fr/site-photographe/)
-- [Site de joaillier](https://studio7j.fr/site-joaillier/)
-- [Site d'illustrateur](https://studio7j.fr/site-illustrateur/)
-- [Refonte de site d'artiste](https://studio7j.fr/refonte-site-artiste/)
+- [Créer un site d'artiste — guide complet](https://www.studio7j.fr/site-artiste/)
+- [Site de peintre professionnel](https://www.studio7j.fr/site-peintre/)
+- [Site de céramiste](https://www.studio7j.fr/site-ceramiste/)
+- [Site de sculpteur](https://www.studio7j.fr/site-sculpteur/)
+- [Site de photographe](https://www.studio7j.fr/site-photographe/)
+- [Site de joaillier](https://www.studio7j.fr/site-joaillier/)
+- [Site d'illustrateur](https://www.studio7j.fr/site-illustrateur/)
+- [Refonte de site d'artiste](https://www.studio7j.fr/refonte-site-artiste/)
 
 ## Pages SEO géographiques
 
-- [Agence web pour artistes Paris](https://studio7j.fr/agence-web-artistes-paris/)
-- [Agence web pour artistes Lyon](https://studio7j.fr/agence-web-artistes-lyon/)
-- [Agence web pour artistes Bordeaux](https://studio7j.fr/agence-web-artistes-bordeaux/)
-- [Agence web pour artistes Marseille](https://studio7j.fr/agence-web-artistes-marseille/)
-- [Agence web pour artistes Toulouse](https://studio7j.fr/agence-web-artistes-toulouse/)
-- [Agence web pour artistes Nantes](https://studio7j.fr/agence-web-artistes-nantes/)
+- [Agence web pour artistes Paris](https://www.studio7j.fr/agence-web-artistes-paris/)
+- [Agence web pour artistes Lyon](https://www.studio7j.fr/agence-web-artistes-lyon/)
+- [Agence web pour artistes Bordeaux](https://www.studio7j.fr/agence-web-artistes-bordeaux/)
+- [Agence web pour artistes Marseille](https://www.studio7j.fr/agence-web-artistes-marseille/)
+- [Agence web pour artistes Toulouse](https://www.studio7j.fr/agence-web-artistes-toulouse/)
+- [Agence web pour artistes Nantes](https://www.studio7j.fr/agence-web-artistes-nantes/)
 
 ## Articles de blog (Journal)
 
-- [Comment créer un site d'artiste qui travaille vraiment pour toi](https://studio7j.fr/journal/comment-creer-site-artiste/)
-- [Pourquoi Instagram ne suffit plus pour un artiste professionnel](https://studio7j.fr/journal/instagram-ne-suffit-plus/)
-- [5 erreurs qui tuent un site d'artiste](https://studio7j.fr/journal/erreurs-site-artiste/)
-- [Site web pour artisan d'art : ce qu'il doit contenir](https://studio7j.fr/journal/site-web-artisan-art/)
-- [Site portfolio photographe : les 6 critères d'un site qui génère des commandes](https://studio7j.fr/journal/site-portfolio-photographe/)
+- [Comment créer un site d'artiste qui travaille vraiment pour toi](https://www.studio7j.fr/journal/comment-creer-site-artiste/)
+- [Pourquoi Instagram ne suffit plus pour un artiste professionnel](https://www.studio7j.fr/journal/instagram-ne-suffit-plus/)
+- [5 erreurs qui tuent un site d'artiste](https://www.studio7j.fr/journal/erreurs-site-artiste/)
+- [Site web pour artisan d'art : ce qu'il doit contenir](https://www.studio7j.fr/journal/site-web-artisan-art/)
+- [Site portfolio photographe : les 6 critères d'un site qui génère des commandes](https://www.studio7j.fr/journal/site-portfolio-photographe/)
 
 ## Questions fréquentes
 
