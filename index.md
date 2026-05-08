@@ -59,8 +59,8 @@ description: "Studio7j crée des sites portfolio pour artistes et artisans : ren
         <p class="problem-item__desc">Tes abonnés te voient. Les clients qui cherchent un artiste, non.</p>
       </div>
       <div class="problem-item">
-        <p class="problem-item__title">Squarespace n'est pas une galerie</p>
-        <p class="problem-item__desc">Les templates génériques diluent ce qui te rend unique.</p>
+        <p class="problem-item__title">Un template générique ne te représente pas</p>
+        <p class="problem-item__desc">Ton identité artistique mérite mieux qu'un design pensé pour tout le monde.</p>
       </div>
       <div class="problem-item">
         <p class="problem-item__title">Les demandes n'arrivent pas seules</p>
@@ -193,7 +193,7 @@ description: "Studio7j crée des sites portfolio pour artistes et artisans : ren
       </div>
       <div class="faq-item">
         <dt>En quoi c'est différent de Squarespace ou Wix ?</dt>
-        <dd>Studio7j ne vend pas un template : je construis un site sur-mesure pour ton travail, ta discipline, ton identité. L'architecture est pensée pour le SEO dès le départ, pas comme un plugin afterthought.</dd>
+        <dd>Studio7j ne vend pas un template : je construis un site sur-mesure pour ton travail, ta discipline, ton identité. L'architecture SEO est pensée dès le départ, pas ajoutée après coup.</dd>
       </div>
       <div class="faq-item">
         <dt>Vous travaillez avec quel type d'artistes ?</dt>
