@@ -1,11 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
   <rect width="32" height="32" rx="6" fill="#1A1714"/>
   <text
-    x="3" y="27"
+    x="16" y="24"
+    text-anchor="middle"
     font-family="Georgia, 'Times New Roman', serif"
     font-style="italic"
     font-weight="400"
-    font-size="26"
+    font-size="22"
     fill="#C96B2D"
-    letter-spacing="-1">7j</text>
+    letter-spacing="-0.5">7j</text>
 </svg>
