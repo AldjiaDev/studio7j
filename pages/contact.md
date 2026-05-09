@@ -17,6 +17,12 @@ permalink: /pages/contact/
     <!-- Colonne gauche : infos -->
     <div class="contact-info">
       <div class="contact-info__block">
+        <p class="contact-info__label">Email</p>
+        <p class="contact-info__value">
+          <a href="mailto:contact.studio7j@gmail.com" class="contact-link">contact.studio7j@gmail.com</a>
+        </p>
+      </div>
+      <div class="contact-info__block">
         <p class="contact-info__label">Délai de réponse</p>
         <p class="contact-info__value">Sous 48h, jours ouvrés.</p>
       </div>
