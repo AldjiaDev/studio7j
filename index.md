@@ -54,7 +54,7 @@ description: "Studio7j crée des sites portfolio pour artistes et artisans : ren
     <h1 class="lp-hero__h1">Ton travail mérite<br>un site<br><em>à sa hauteur.</em></h1>
     <p class="lp-hero__lead">Portfolio sur-mesure, rendu galerie, SEO-first.<br>Livré en 7 jours — sans compromis.</p>
     <div class="lp-hero__cta">
-      <a class="btn btn--lg" href="{{ '/pages/rdv/' | relative_url }}">Réserver un RDV gratuit</a>
+      <a class="btn btn--lg" href="https://cal.com/aldjia-boughias/studio7j?overlayCalendar=true">Réserver un RDV gratuit</a>
       <a class="btn btn--ghost btn--lg" href="{{ '/pages/offre/' | relative_url }}">Voir l'offre</a>
     </div>
   </div>
@@ -234,7 +234,7 @@ description: "Studio7j crée des sites portfolio pour artistes et artisans : ren
           <li>Mise en ligne complète</li>
           <li>1 vague de retours incluse</li>
         </ul>
-        <a class="btn" style="margin-top:var(--s6);width:100%;justify-content:center" href="{{ '/pages/rdv/' | relative_url }}">Réserver mon RDV de cadrage</a>
+        <a class="btn" style="margin-top:var(--s6);width:100%;justify-content:center" href="https://cal.com/aldjia-boughias/studio7j?overlayCalendar=true">Réserver mon RDV de cadrage</a>
         <p class="pricing-note">Devis personnalisé après RDV. Gratuit, sans engagement.</p>
       </div>
     </div>
@@ -277,6 +277,6 @@ description: "Studio7j crée des sites portfolio pour artistes et artisans : ren
     <span class="eyebrow eyebrow--light">Première étape</span>
     <h2 class="h2 lp-final-cta__title">Réserve ton RDV<br><em>de cadrage.</em></h2>
     <p class="lp-final-cta__lead">20 minutes. Gratuit. Sans engagement.<br>On clarifie tout ensemble avant de commencer.</p>
-    <a class="btn btn--light btn--lg" href="{{ '/pages/rdv/' | relative_url }}">Réserver un créneau</a>
+    <a class="btn btn--light btn--lg" href="https://cal.com/aldjia-boughias/studio7j?overlayCalendar=true">Réserver un créneau</a>
   </div>
 </section>

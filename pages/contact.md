@@ -45,7 +45,7 @@ permalink: /pages/contact/
     </form>
 
     <div class="contact-simple__footer">
-      <p>Tu préfères un appel ? <a href="{{ '/pages/rdv/' | relative_url }}" class="contact-link">Réserver un RDV gratuit →</a></p>
+      <p>Tu préfères un appel ? <a href="https://cal.com/aldjia-boughias/studio7j?overlayCalendar=true" class="contact-link">Réserver un RDV gratuit →</a></p>
       <p>Ou par email : <a href="mailto:contact.studio7j@gmail.com" class="contact-link">contact.studio7j@gmail.com</a></p>
     </div>
 

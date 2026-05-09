@@ -11,7 +11,7 @@ permalink: /pages/offre/
   <h1 class="h1 offer-header__title">Site d'artiste premium.<br><em>Livré en 7 jours.</em></h1>
   <p class="lead offer-header__lead">Un portfolio sur-mesure, pensé pour les artistes et artisans — avec le rendu d'une galerie, l'efficacité du SEO, et un process sans surprise.</p>
   <div class="cta">
-    <a class="btn btn--lg" href="{{ '/pages/rdv/' | relative_url }}">Réserver un RDV de cadrage</a>
+    <a class="btn btn--lg" href="https://cal.com/aldjia-boughias/studio7j?overlayCalendar=true">Réserver un RDV de cadrage</a>
     <a class="btn btn--ghost btn--lg" href="{{ '/pages/contact/' | relative_url }}">Poser une question</a>
   </div>
 </header>
@@ -165,7 +165,7 @@ permalink: /pages/offre/
       <li>1 vague de retours incluse</li>
       <li>Prise en main à la livraison</li>
     </ul>
-    <a class="btn" style="margin-top:var(--s6);width:100%;justify-content:center" href="{{ '/pages/rdv/' | relative_url }}">Réserver mon RDV de cadrage</a>
+    <a class="btn" style="margin-top:var(--s6);width:100%;justify-content:center" href="https://cal.com/aldjia-boughias/studio7j?overlayCalendar=true">Réserver mon RDV de cadrage</a>
     <p class="pricing-note">Devis personnalisé après RDV. Gratuit, sans engagement.</p>
   </div>
 </section>
