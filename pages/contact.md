@@ -47,8 +47,11 @@ permalink: /pages/contact/
 
     <!-- Colonne droite : formulaire -->
     <div class="contact-form-wrap">
-      <form name="contact" method="POST" data-netlify="true" action="{{ '/pages/merci/' | relative_url }}" class="contact-form" novalidate aria-label="Formulaire de contact Studio7j">
-        <input type="hidden" name="form-name" value="contact" />
+      <form method="POST" action="https://formsubmit.co/contact.studio7j@gmail.com" class="contact-form" novalidate aria-label="Formulaire de contact Studio7j">
+        <input type="hidden" name="_next" value="{{ '/pages/merci/' | absolute_url }}" />
+        <input type="hidden" name="_subject" value="Nouveau message — Studio7j" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_template" value="table" />
         <p class="contact-form__required-note">Les champs marqués <abbr title="obligatoire">*</abbr> sont obligatoires.</p>
 
         <label class="contact-label" for="contact-name">
