@@ -225,7 +225,7 @@ description: "Studio7j crée des sites portfolio pour artistes et artisans : ren
     <div class="lp-split__aside">
       <div class="pricing-card">
         <p class="pricing-label">Formule Site Artiste</p>
-        <p class="pricing-price">À partir de<br><strong>990 € HT</strong></p>
+        <p class="pricing-price">À partir de<br><strong>1 290 € HT</strong></p>
         <ul class="pricing-list">
           <li>Design sur-mesure, rendu galerie</li>
           <li>Développement &amp; intégration du contenu</li>
