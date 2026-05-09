@@ -51,7 +51,7 @@ Parle de ta pratique, de ce qui t'anime, de ton parcours. Pas de liste de prix, 
 
 Simple. Un formulaire ou une adresse email visible. Pas de CAPTCHA absurde, pas de formulaire à 12 champs.
 
-## Le SEO : pourquoi c'est vital pour un artiste
+## Être trouvé sur Google : pourquoi c'est vital pour un artiste
 
 Instagram te donne de la visibilité auprès de tes abonnés. Google te donne de la visibilité auprès de gens qui te cherchent sans te connaître.
 
@@ -68,7 +68,7 @@ Pour ranker sur Google, quelques principes simples :
 
 Les constructeurs de sites généralistes proposent des centaines de templates. Certains sont beaux. Mais ils ne sont pas pensés pour les artistes.
 
-La hiérarchie d'une galerie — grande image, blanc généreux, typographie sobre — est difficile à obtenir sans ajustements. Et le SEO est souvent traité comme une fonctionnalité secondaire.
+La hiérarchie d'une galerie — grande image, blanc généreux, typographie sobre — est difficile à obtenir sans ajustements. Et la visibilité sur Google est souvent traitée comme une fonctionnalité secondaire.
 
 Ce n'est pas une critique. C'est une réalité : un outil pensé pour les restaurants, les coachs et les artistes à la fois n'est optimisé pour aucun d'eux.
 
@@ -100,6 +100,6 @@ Selon votre discipline, consultez nos pages dédiées :
 
 - [Site de peintre](/site-peintre/) — rendu galerie HD, séries, démarche artistique
 - [Site de céramiste](/site-ceramiste/) — catalogue de pièces, commandes sur mesure
-- [Site de photographe](/site-photographe/) — galeries rapides, SEO par spécialité
+- [Site de photographe](/site-photographe/) — galeries rapides, visible sur Google par spécialité
 - [Site de sculpteur](/site-sculpteur/) — vues multi-angles, matériaux, expositions
 - [Site de joaillier](/site-joaillier/) — collections, savoir-faire, rendez-vous atelier

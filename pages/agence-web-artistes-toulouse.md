@@ -1,14 +1,14 @@
 ---
 layout: default
 title: "Agence web pour artistes Toulouse — Site portfolio livré en 7 jours"
-description: "Studio7j crée des sites portfolio pour artistes et artisans d'art à Toulouse et en Occitanie : rendu galerie, SEO-first, livré en 7 jours."
+description: "Studio7j crée des sites portfolio pour artistes et artisans d'art à Toulouse et en Occitanie : rendu galerie, visible sur Google dès le lancement, livré en 7 jours."
 permalink: /agence-web-artistes-toulouse/
 ---
 
 <header class="offer-header">
   <span class="eyebrow">Agence web — Toulouse & Occitanie</span>
   <h1 class="h1 offer-header__title">Site d'artiste à Toulouse,<br><em>livré en 7 jours.</em></h1>
-  <p class="lead offer-header__lead">Studio7j crée des sites portfolio pour les artistes et artisans d'art toulousains et occitans. Rendu galerie, SEO optimisé, livré en 7 jours.</p>
+  <p class="lead offer-header__lead">Studio7j crée des sites portfolio pour les artistes et artisans d'art toulousains et occitans. Rendu galerie, visible sur Google, livré en 7 jours.</p>
 </header>
 
 <section class="about-section">
@@ -58,7 +58,7 @@ permalink: /agence-web-artistes-toulouse/
   "@type": "Service",
   "name": "Agence web pour artistes Toulouse",
   "provider": { "@type": "ProfessionalService", "name": "Studio7j", "url": "https://studio7j.fr" },
-  "description": "Création de sites portfolio pour artistes et artisans d'art à Toulouse et en Occitanie. Rendu galerie, SEO local, livraison en 7 jours.",
+  "description": "Création de sites portfolio pour artistes et artisans d'art à Toulouse et en Occitanie. Rendu galerie, Visible sur Google dans ta ville, livraison en 7 jours.",
   "serviceType": "Création de site web pour artiste",
   "areaServed": { "@type": "City", "name": "Toulouse" },
   "inLanguage": "fr"

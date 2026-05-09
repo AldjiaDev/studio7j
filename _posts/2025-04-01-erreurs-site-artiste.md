@@ -61,4 +61,4 @@ Google pénalise les sites lents. Les visiteurs partent après 3 secondes.
 
 Ces cinq points, bien traités, font la différence entre un portfolio qui donne confiance et un qui fait fuir.
 
-Si tu veux que quelqu'un s'en charge pour toi — structure, visuels, textes, SEO — c'est exactement ce que fait Studio7j, en 7 jours.
+Si tu veux que quelqu'un s'en charge pour toi — structure, visuels, texteset visibilité Google — c'est exactement ce que fait Studio7j, en 7 jours.

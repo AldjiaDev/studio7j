@@ -1,14 +1,14 @@
 ---
 layout: default
 title: "Agence web pour artistes Marseille — Site portfolio livré en 7 jours"
-description: "Studio7j crée des sites portfolio pour artistes et artisans d'art à Marseille et en Provence-Alpes-Côte d'Azur : rendu galerie, SEO-first, livré en 7 jours."
+description: "Studio7j crée des sites portfolio pour artistes et artisans d'art à Marseille et en Provence-Alpes-Côte d'Azur : rendu galerie, visible sur Google dès le lancement, livré en 7 jours."
 permalink: /agence-web-artistes-marseille/
 ---
 
 <header class="offer-header">
   <span class="eyebrow">Agence web — Marseille & PACA</span>
   <h1 class="h1 offer-header__title">Site d'artiste à Marseille,<br><em>livré en 7 jours.</em></h1>
-  <p class="lead offer-header__lead">Studio7j crée des sites portfolio pour les artistes et artisans d'art marseillais et provençaux. Rendu galerie, SEO local, livré en 7 jours.</p>
+  <p class="lead offer-header__lead">Studio7j crée des sites portfolio pour les artistes et artisans d'art marseillais et provençaux. Rendu galerie, Visible sur Google dans ta ville, livré en 7 jours.</p>
 </header>
 
 <section class="about-section">
@@ -58,7 +58,7 @@ permalink: /agence-web-artistes-marseille/
   "@type": "Service",
   "name": "Agence web pour artistes Marseille",
   "provider": { "@type": "ProfessionalService", "name": "Studio7j", "url": "https://studio7j.fr" },
-  "description": "Création de sites portfolio pour artistes et artisans d'art à Marseille et en PACA. Rendu galerie, SEO local, livraison en 7 jours.",
+  "description": "Création de sites portfolio pour artistes et artisans d'art à Marseille et en PACA. Rendu galerie, Visible sur Google dans ta ville, livraison en 7 jours.",
   "serviceType": "Création de site web pour artiste",
   "areaServed": { "@type": "City", "name": "Marseille" },
   "inLanguage": "fr"

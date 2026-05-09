@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Studio7j — Site d'artiste au rendu galerie, livré en 7 jours"
-description: "Studio7j crée des sites portfolio pour artistes et artisans : rendu galerie, SEO-first, livré en 7 jours. Peintres, céramistes, sculpteurs, photographes, joailliers."
+description: "Studio7j crée des sites portfolio pour artistes et artisans : rendu galerie, visible sur Google dès le lancement, livré en 7 jours. Peintres, céramistes, sculpteurs, photographes, joailliers."
 ---
 
 <!-- ══ HERO ════════════════════════════════════════════ -->
@@ -52,7 +52,7 @@ description: "Studio7j crée des sites portfolio pour artistes et artisans : ren
   <div class="lp-hero__content">
     <span class="eyebrow">Agence web pour artistes</span>
     <h1 class="lp-hero__h1">Ton travail mérite<br>un site<br><em>à sa hauteur.</em></h1>
-    <p class="lp-hero__lead">Portfolio sur-mesure, rendu galerie, SEO-first.<br>Livré en 7 jours — sans compromis.</p>
+    <p class="lp-hero__lead">Portfolio sur-mesure, rendu galerie, visible sur Google.<br>Livré en 7 jours — sans compromis.</p>
     <div class="lp-hero__cta">
       <a class="btn btn--lg" href="https://cal.com/aldjia-boughias/studio7j?overlayCalendar=true">Réserver un RDV gratuit</a>
       <a class="btn btn--ghost btn--lg" href="{{ '/pages/offre/' | relative_url }}">Voir l'offre</a>
@@ -179,8 +179,8 @@ description: "Studio7j crée des sites portfolio pour artistes et artisans : ren
         <div class="feature__icon" aria-hidden="true">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="6.5" cy="6.5" r="4.5" stroke="currentColor" stroke-width="1.2"/><path d="M10 10l3.5 3.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
         </div>
-        <h3>SEO optimisé</h3>
-        <p>Structure propre, pages ciblées sur tes mots-clés. Trouvé par les bonnes personnes.</p>
+        <h3>Visible sur Google</h3>
+        <p>Structure propre, pages ciblées sur ce que cherchent tes futurs clients. Trouvé par les bonnes personnes.</p>
       </div>
       <div class="feature">
         <div class="feature__icon" aria-hidden="true">
@@ -229,7 +229,7 @@ description: "Studio7j crée des sites portfolio pour artistes et artisans : ren
         <ul class="pricing-list">
           <li>Design sur-mesure, rendu galerie</li>
           <li>Développement &amp; intégration du contenu</li>
-          <li>SEO on-page optimisé</li>
+          <li>Conçu pour être trouvé sur Google</li>
           <li>Hébergement gratuit sur GitHub Pages</li>
           <li>Mise en ligne complète</li>
           <li>1 vague de retours incluse</li>
@@ -257,7 +257,7 @@ description: "Studio7j crée des sites portfolio pour artistes et artisans : ren
       </div>
       <div class="faq-item">
         <dt>En quoi c'est différent d'un site générique ?</dt>
-        <dd>Studio7j ne vend pas un template. Je construis un site sur-mesure pour ton travail, ta discipline, ton identité. L'architecture SEO est pensée dès le départ, pas ajoutée après coup.</dd>
+        <dd>Studio7j ne vend pas un template. Je construis un site sur-mesure pour ton travail, ta discipline, ton identité. La structure pour être trouvé sur Google est pensée dès le départ, pas ajoutée après coup.</dd>
       </div>
       <div class="faq-item">
         <dt>Vous travaillez avec quel type d'artistes ?</dt>

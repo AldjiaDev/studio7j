@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pourquoi Instagram ne suffit plus pour un artiste professionnel"
-description: "Instagram est un outil de diffusion, pas de référencement. Si tu n'as pas de site, tu n'existes pas pour Google — et tu rates une partie importante de tes clients potentiels."
+description: "Instagram est un outil de diffusion, pas de visibilité Google. Si tu n'as pas de site, tu n'existes pas pour Google — et tu rates une partie importante de tes clients potentiels."
 date: 2025-04-15
 reading_time: 4
 permalink: /journal/instagram-ne-suffit-plus/
@@ -58,7 +58,7 @@ Les artistes qui fonctionnent le mieux en ligne utilisent les deux.
 
 Instagram pour la présence quotidienne, l'engagement, la communauté.
 
-Le site pour la crédibilité, le référencement, et la conversion.
+Le site pour la crédibilité, être trouvé sur Google, et la conversion.
 
 L'un amène des abonnés. L'autre amène des clients.
 

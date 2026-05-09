@@ -1,14 +1,14 @@
 ---
 layout: default
 title: "Refonte site d'artiste — Moderniser son portfolio en 7 jours"
-description: "Votre site d'artiste est vieux, lent ou ne génère plus de contacts ? Studio7j refontle votre portfolio en 7 jours : nouveau design, SEO corrigé, performances optimisées."
+description: "Votre site d'artiste est vieux, lent ou ne génère plus de contacts ? Studio7j refontle votre portfolio en 7 jours : nouveau design, visibilité Google restaurée, performances optimisées."
 permalink: /refonte-site-artiste/
 ---
 
 <header class="offer-header">
   <span class="eyebrow">Refonte de site d'artiste</span>
   <h1 class="h1 offer-header__title">Votre site actuel<br><em>ne vous représente plus.</em></h1>
-  <p class="lead offer-header__lead">Un site vieilli, lent, mal référencé ou simplement dépassé nuit à votre image. Studio7j refontle votre portfolio de A à Z en 7 jours — nouveau design, SEO corrigé, tout reconstruit proprement.</p>
+  <p class="lead offer-header__lead">Un site vieilli, lent, introuvable sur Google ou simplement dépassé nuit à votre image. Studio7j refontle votre portfolio de A à Z en 7 jours — nouveau design, visibilité Google restaurée, tout reconstruit proprement.</p>
 </header>
 
 <section class="about-section">
@@ -58,7 +58,7 @@ permalink: /refonte-site-artiste/
       <p style="color:rgba(247,244,239,0.80)">Identité visuelle cohérente avec votre travail actuel. Pas un template — un design pensé pour votre discipline et votre niveau.</p>
     </div>
     <div class="about-approach__item">
-      <h3 style="color:var(--cream)">SEO corrigé</h3>
+      <h3 style="color:var(--cream)">visibilité Google restaurée</h3>
       <p style="color:rgba(247,244,239,0.80)">Titres, descriptions, structure sémantique, vitesse, données structurées — tout ce qui permet à Google de vous trouver et de vous classer correctement.</p>
     </div>
     <div class="about-approach__item">
@@ -67,7 +67,7 @@ permalink: /refonte-site-artiste/
     </div>
     <div class="about-approach__item">
       <h3 style="color:var(--cream)">Migration sans perte</h3>
-      <p style="color:rgba(247,244,239,0.80)">Transfert de votre contenu sélectionné, redirections si nécessaire. Votre SEO existant protégé pendant la transition.</p>
+      <p style="color:rgba(247,244,239,0.80)">Transfert de votre contenu sélectionné, redirections si nécessaire. Votre position Google protégée pendant la transition.</p>
     </div>
     <div class="about-approach__item">
       <h3 style="color:var(--cream)">Livraison en 7 jours</h3>
@@ -112,7 +112,7 @@ permalink: /refonte-site-artiste/
   "@type": "Service",
   "name": "Refonte de site d'artiste",
   "provider": { "@type": "ProfessionalService", "name": "Studio7j", "url": "https://studio7j.fr" },
-  "description": "Refonte complète de site portfolio pour artistes et artisans d'art : nouveau design, SEO corrigé, images optimisées, livraison en 7 jours.",
+  "description": "Refonte complète de site portfolio pour artistes et artisans d'art : nouveau design, visibilité Google restaurée, images optimisées, livraison en 7 jours.",
   "serviceType": "Refonte de site web pour artiste",
   "areaServed": { "@type": "Country", "name": "France" },
   "inLanguage": "fr"

@@ -70,7 +70,7 @@ permalink: /site-peintre/
       <p style="color:rgba(247,244,239,0.80)">CV artistique, expositions passées et à venir, visuels haute résolution téléchargeables — pour les galeristes et journalistes.</p>
     </div>
     <div class="about-approach__item">
-      <h3 style="color:var(--cream)">SEO intégré dès le départ</h3>
+      <h3 style="color:var(--cream)">Visible sur Google dès le lancement</h3>
       <p style="color:rgba(247,244,239,0.80)">Titres, descriptions, données structurées, vitesse de chargement — tout est pensé pour que Google comprenne et classe votre site.</p>
     </div>
   </div>

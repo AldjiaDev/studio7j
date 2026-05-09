@@ -1,14 +1,14 @@
 ---
 layout: default
 title: "Site de photographe professionnel — Portfolio livré en 7 jours"
-description: "Studio7j crée des sites portfolio pour photographes : galeries ultra-rapides, SEO par spécialité, commandes et tirages, livré en 7 jours. Mariage, architecture, portrait, mode, culinaire."
+description: "Studio7j crée des sites portfolio pour photographes : galeries ultra-rapides, Visible sur Google par spécialité, commandes et tirages, livré en 7 jours. Mariage, architecture, portrait, mode, culinaire."
 permalink: /site-photographe/
 ---
 
 <header class="offer-header">
   <span class="eyebrow">Site de photographe</span>
   <h1 class="h1 offer-header__title">Un site portfolio<br><em>pour photographe.</em></h1>
-  <p class="lead offer-header__lead">Vos images méritent un site aussi rapide qu'elles sont belles. Studio7j conçoit des portfolios pour photographes professionnels : chargement ultra-rapide, SEO par spécialité, livré en 7 jours.</p>
+  <p class="lead offer-header__lead">Vos images méritent un site aussi rapide qu'elles sont belles. Studio7j conçoit des portfolios pour photographes professionnels : chargement ultra-rapide, Visible sur Google par spécialité, livré en 7 jours.</p>
 </header>
 
 <section class="about-section">
@@ -31,7 +31,7 @@ permalink: /site-photographe/
       <div class="about-value">
         <span class="about-value__num">02</span>
         <div>
-          <p class="about-value__title">SEO par spécialité</p>
+          <p class="about-value__title">Visible sur Google par spécialité</p>
           <p class="about-value__desc">Photographe de mariage, d'architecture, culinaire, portrait corporate — chaque spécialité a sa page, ses mots-clés, son référencement propre.</p>
         </div>
       </div>
@@ -52,7 +52,7 @@ permalink: /site-photographe/
   <div class="about-approach" style="margin-top:var(--s10)">
     <div class="about-approach__item">
       <h3 style="color:var(--cream)">Galeries par projet</h3>
-      <p style="color:rgba(247,244,239,0.80)">Chaque reportage ou série dans une galerie dédiée — titrée, décrite, optimisée SEO. Chaque galerie est une page que Google peut indexer.</p>
+      <p style="color:rgba(247,244,239,0.80)">Chaque reportage ou série dans une galerie dédiée — titrée, décrite, optimisée pour Google. Chaque galerie est une page que Google peut indexer.</p>
     </div>
     <div class="about-approach__item">
       <h3 style="color:var(--cream)">Images optimisées</h3>
@@ -90,7 +90,7 @@ permalink: /site-photographe/
   "@type": "Service",
   "name": "Site portfolio pour photographe",
   "provider": { "@type": "ProfessionalService", "name": "Studio7j", "url": "https://studio7j.fr" },
-  "description": "Création de site portfolio pour photographes professionnels : galeries rapides, SEO par spécialité, commandes et tirages, livraison en 7 jours.",
+  "description": "Création de site portfolio pour photographes professionnels : galeries rapides, Visible sur Google par spécialité, commandes et tirages, livraison en 7 jours.",
   "serviceType": "Création de site web pour photographe",
   "areaServed": { "@type": "Country", "name": "France" },
   "inLanguage": "fr"

@@ -1,14 +1,14 @@
 ---
 layout: default
 title: "Agence web pour artistes Bordeaux — Site portfolio livré en 7 jours"
-description: "Studio7j crée des sites portfolio pour artistes et artisans d'art à Bordeaux et en Nouvelle-Aquitaine : rendu galerie, SEO-first, livré en 7 jours."
+description: "Studio7j crée des sites portfolio pour artistes et artisans d'art à Bordeaux et en Nouvelle-Aquitaine : rendu galerie, visible sur Google dès le lancement, livré en 7 jours."
 permalink: /agence-web-artistes-bordeaux/
 ---
 
 <header class="offer-header">
   <span class="eyebrow">Agence web — Bordeaux & Nouvelle-Aquitaine</span>
   <h1 class="h1 offer-header__title">Site d'artiste à Bordeaux,<br><em>livré en 7 jours.</em></h1>
-  <p class="lead offer-header__lead">Studio7j crée des sites portfolio professionnels pour les artistes et artisans d'art bordelais. Rendu galerie, SEO optimisé pour Bordeaux et la région, livré en 7 jours.</p>
+  <p class="lead offer-header__lead">Studio7j crée des sites portfolio professionnels pour les artistes et artisans d'art bordelais. Rendu galerie, visible sur Google à Bordeaux et la région, livré en 7 jours.</p>
 </header>
 
 <section class="about-section">
@@ -58,7 +58,7 @@ permalink: /agence-web-artistes-bordeaux/
   "@type": "Service",
   "name": "Agence web pour artistes Bordeaux",
   "provider": { "@type": "ProfessionalService", "name": "Studio7j", "url": "https://studio7j.fr" },
-  "description": "Création de sites portfolio pour artistes et artisans d'art à Bordeaux et en Nouvelle-Aquitaine. Rendu galerie, SEO local, livraison en 7 jours.",
+  "description": "Création de sites portfolio pour artistes et artisans d'art à Bordeaux et en Nouvelle-Aquitaine. Rendu galerie, Visible sur Google dans ta ville, livraison en 7 jours.",
   "serviceType": "Création de site web pour artiste",
   "areaServed": { "@type": "City", "name": "Bordeaux" },
   "inLanguage": "fr"

@@ -17,7 +17,7 @@ C'est le paradoxe du site de photographe : les images sont le cœur du métier, 
 
 Une photo brute de 8 Mo, multipliée par 40 images dans une galerie — le résultat est un site qu'on abandonne avant qu'il ait chargé. Google le sait et le pénalise dans ses résultats.
 
-La règle : chaque image affichée en galerie ne doit pas dépasser 200 Ko. En plein écran, 800 Ko maximum. C'est une contrainte technique qui n'affecte pas la qualité perçue à l'écran — et qui change tout pour le référencement et l'expérience utilisateur.
+La règle : chaque image affichée en galerie ne doit pas dépasser 200 Ko. En plein écran, 800 Ko maximum. C'est une contrainte technique qui n'affecte pas la qualité perçue à l'écran — et qui change tout pour la visibilité sur Google et l'expérience utilisateur.
 
 ## 2. La spécialisation visible dès l'accueil
 

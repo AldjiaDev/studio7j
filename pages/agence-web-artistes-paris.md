@@ -1,14 +1,14 @@
 ---
 layout: default
 title: "Agence web pour artistes Paris — Site portfolio livré en 7 jours"
-description: "Studio7j crée des sites portfolio pour artistes et artisans d'art à Paris et en Île-de-France : rendu galerie, SEO-first, livré en 7 jours. Peintres, céramistes, sculpteurs, photographes."
+description: "Studio7j crée des sites portfolio pour artistes et artisans d'art à Paris et en Île-de-France : rendu galerie, visible sur Google dès le lancement, livré en 7 jours. Peintres, céramistes, sculpteurs, photographes."
 permalink: /agence-web-artistes-paris/
 ---
 
 <header class="offer-header">
   <span class="eyebrow">Agence web — Paris & Île-de-France</span>
   <h1 class="h1 offer-header__title">Site d'artiste à Paris,<br><em>livré en 7 jours.</em></h1>
-  <p class="lead offer-header__lead">Studio7j accompagne les artistes et artisans d'art parisiens et franciliens dans la création de leur site portfolio professionnel. Rendu galerie, SEO-first, 100% sur-mesure.</p>
+  <p class="lead offer-header__lead">Studio7j accompagne les artistes et artisans d'art parisiens et franciliens dans la création de leur site portfolio professionnel. Rendu galerie, visible sur Google dès le lancement, 100% sur-mesure.</p>
 </header>
 
 <section class="about-section">
@@ -17,7 +17,7 @@ permalink: /agence-web-artistes-paris/
       <span class="eyebrow">Paris, capitale de l'art</span>
       <h2 class="h2">La concurrence est forte à Paris.<br>Votre site doit vous démarquer.</h2>
       <p>Paris concentre un nombre exceptionnel d'artistes, de galeries, de collectionneurs et d'institutions culturelles. C'est une chance — et une exigence. Dans cet environnement, un site amateur ou généraliste ne suffit pas.</p>
-      <p>Un artiste parisien a besoin d'un site qui reflète le niveau d'exigence du marché de l'art francilien : design soigné, rendu galerie irréprochable, et référencement qui le positionne sur les bonnes requêtes Google.</p>
+      <p>Un artiste parisien a besoin d'un site qui reflète le niveau d'exigence du marché de l'art francilien : design soigné, rendu galerie irréprochable, et positionnement Google qui l'amène sur les bonnes requêtes Google.</p>
     </div>
     <div class="about-split__values">
       <div class="about-value">
@@ -63,7 +63,7 @@ permalink: /agence-web-artistes-paris/
     </div>
     <div class="about-approach__item">
       <h3 style="color:var(--cream)">Photographes</h3>
-      <p style="color:rgba(247,244,239,0.80)">Galeries ultra-rapides, SEO par spécialité, commandes et tirages. <a href="/site-photographe/" style="color:var(--ochre)">Site de photographe →</a></p>
+      <p style="color:rgba(247,244,239,0.80)">Galeries ultra-rapides, Visible sur Google par spécialité, commandes et tirages. <a href="/site-photographe/" style="color:var(--ochre)">Site de photographe →</a></p>
     </div>
     <div class="about-approach__item">
       <h3 style="color:var(--cream)">Joailliers</h3>
@@ -89,7 +89,7 @@ permalink: /agence-web-artistes-paris/
   "@type": "Service",
   "name": "Agence web pour artistes Paris",
   "provider": { "@type": "ProfessionalService", "name": "Studio7j", "url": "https://studio7j.fr" },
-  "description": "Création de sites portfolio pour artistes et artisans d'art à Paris et en Île-de-France. Rendu galerie, SEO-first, livraison en 7 jours.",
+  "description": "Création de sites portfolio pour artistes et artisans d'art à Paris et en Île-de-France. Rendu galerie, visible sur Google dès le lancement, livraison en 7 jours.",
   "serviceType": "Création de site web pour artiste",
   "areaServed": { "@type": "City", "name": "Paris" },
   "inLanguage": "fr"

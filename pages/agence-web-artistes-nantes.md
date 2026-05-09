@@ -1,14 +1,14 @@
 ---
 layout: default
 title: "Agence web pour artistes Nantes — Site portfolio livré en 7 jours"
-description: "Studio7j crée des sites portfolio pour artistes et artisans d'art à Nantes et en Pays de la Loire : rendu galerie, SEO-first, livré en 7 jours."
+description: "Studio7j crée des sites portfolio pour artistes et artisans d'art à Nantes et en Pays de la Loire : rendu galerie, visible sur Google dès le lancement, livré en 7 jours."
 permalink: /agence-web-artistes-nantes/
 ---
 
 <header class="offer-header">
   <span class="eyebrow">Agence web — Nantes & Pays de la Loire</span>
   <h1 class="h1 offer-header__title">Site d'artiste à Nantes,<br><em>livré en 7 jours.</em></h1>
-  <p class="lead offer-header__lead">Studio7j crée des sites portfolio pour les artistes et artisans d'art nantais. Rendu galerie, SEO local, livré en 7 jours.</p>
+  <p class="lead offer-header__lead">Studio7j crée des sites portfolio pour les artistes et artisans d'art nantais. Rendu galerie, Visible sur Google dans ta ville, livré en 7 jours.</p>
 </header>
 
 <section class="about-section">
@@ -58,7 +58,7 @@ permalink: /agence-web-artistes-nantes/
   "@type": "Service",
   "name": "Agence web pour artistes Nantes",
   "provider": { "@type": "ProfessionalService", "name": "Studio7j", "url": "https://studio7j.fr" },
-  "description": "Création de sites portfolio pour artistes et artisans d'art à Nantes et en Pays de la Loire. Rendu galerie, SEO local, livraison en 7 jours.",
+  "description": "Création de sites portfolio pour artistes et artisans d'art à Nantes et en Pays de la Loire. Rendu galerie, Visible sur Google dans ta ville, livraison en 7 jours.",
   "serviceType": "Création de site web pour artiste",
   "areaServed": { "@type": "City", "name": "Nantes" },
   "inLanguage": "fr"

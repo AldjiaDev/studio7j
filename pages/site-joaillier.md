@@ -89,7 +89,7 @@ permalink: /site-joaillier/
   "@type": "Service",
   "name": "Site portfolio pour joaillier et bijoutier d'art",
   "provider": { "@type": "ProfessionalService", "name": "Studio7j", "url": "https://studio7j.fr" },
-  "description": "Création de site pour joailliers et bijoutiers d'art : collections, commandes sur mesure, SEO local, livraison en 7 jours.",
+  "description": "Création de site pour joailliers et bijoutiers d'art : collections, commandes sur mesure, Visible sur Google dans ta ville, livraison en 7 jours.",
   "serviceType": "Création de site web pour joaillier",
   "areaServed": { "@type": "Country", "name": "France" },
   "inLanguage": "fr"

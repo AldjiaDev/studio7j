@@ -37,7 +37,7 @@ permalink: /site-ceramiste/
       <div class="about-value">
         <span class="about-value__num">03</span>
         <div>
-          <p class="about-value__title">SEO local et national</p>
+          <p class="about-value__title">Visible partout sur Google</p>
           <p class="about-value__desc">Structure optimisée pour ranker sur "céramiste [votre ville]", "atelier poterie", "pièces uniques grès" — les recherches exactes de vos clients.</p>
         </div>
       </div>
@@ -66,7 +66,7 @@ permalink: /site-ceramiste/
       <p style="color:rgba(247,244,239,0.80)">Calendrier de vos prochains marchés d'art, foires et expositions — pour que vos clients sachent où vous trouver.</p>
     </div>
     <div class="about-approach__item">
-      <h3 style="color:var(--cream)">SEO métier intégré</h3>
+      <h3 style="color:var(--cream)">Conçu pour être trouvé sur Google</h3>
       <p style="color:rgba(247,244,239,0.80)">Céramiste, potier, grès, porcelaine, raku, faïence — tous vos mots-clés métier intégrés dans la structure et les textes.</p>
     </div>
     <div class="about-approach__item">
@@ -89,7 +89,7 @@ permalink: /site-ceramiste/
   "@type": "Service",
   "name": "Site portfolio pour céramiste",
   "provider": { "@type": "ProfessionalService", "name": "Studio7j", "url": "https://studio7j.fr" },
-  "description": "Création de site pour céramistes : catalogue de pièces, commandes sur mesure, SEO local, livraison en 7 jours.",
+  "description": "Création de site pour céramistes : catalogue de pièces, commandes sur mesure, Visible sur Google dans ta ville, livraison en 7 jours.",
   "serviceType": "Création de site web pour céramiste",
   "areaServed": { "@type": "Country", "name": "France" },
   "inLanguage": "fr"

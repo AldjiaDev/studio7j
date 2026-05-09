@@ -51,7 +51,7 @@ Dites-le clairement : "Je réalise des commandes sur mesure. Voici comment ça f
 
 Un artisan d'art a souvent une implantation géographique forte : atelier en Normandie, présence sur les marchés d'art de Lyon, expositions régulières à Bordeaux.
 
-Cette localisation est un atout SEO considérable. "Céramiste Limoges", "joaillier Toulouse", "luthier Mirecourt" — ce sont des requêtes à faible concurrence sur lesquelles il est possible d'apparaître en première page avec un site bien construit.
+Cette localisation est un vrai avantage pour être trouvé sur Google. "Céramiste Limoges", "joaillier Toulouse", "luthier Mirecourt" — ce sont des requêtes à faible concurrence sur lesquelles il est possible d'apparaître en première page avec un site bien construit.
 
 Mentionnez votre ville, votre région, vos marchés habituels. Ça coûte zéro effort supplémentaire et ça peut changer beaucoup.
 
@@ -78,7 +78,7 @@ Studio7j construit ce type de site en 7 jours, pour les artisans d'art qui veule
 
 Selon votre discipline, consultez nos pages dédiées :
 
-- [Site de céramiste](/site-ceramiste/) — catalogue de pièces, commandes, SEO local
+- [Site de céramiste](/site-ceramiste/) — catalogue de pièces, commandes, visibilité Google locale
 - [Site de joaillier](/site-joaillier/) — collections, savoir-faire orfèvre, commandes sur mesure
 - [Site de sculpteur](/site-sculpteur/) — vues multi-angles, matériaux, installations
 - [Guide complet : créer un site d'artiste](/site-artiste/)

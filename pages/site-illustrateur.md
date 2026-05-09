@@ -70,7 +70,7 @@ permalink: /site-illustrateur/
       <p style="color:rgba(247,244,239,0.80)">Formulaire de contact pensé pour les directeurs artistiques — avec champ brief et délai souhaité. Pour accélérer la conversion.</p>
     </div>
     <div class="about-approach__item">
-      <h3 style="color:var(--cream)">SEO métier intégré</h3>
+      <h3 style="color:var(--cream)">Conçu pour être trouvé sur Google</h3>
       <p style="color:rgba(247,244,239,0.80)">Structure optimisée pour les requêtes exactes de vos clients — selon votre spécialité et votre style.</p>
     </div>
   </div>
@@ -89,7 +89,7 @@ permalink: /site-illustrateur/
   "@type": "Service",
   "name": "Site portfolio pour illustrateur",
   "provider": { "@type": "ProfessionalService", "name": "Studio7j", "url": "https://studio7j.fr" },
-  "description": "Création de site portfolio pour illustrateurs professionnels : galeries par projet, références clients, SEO par spécialité, livraison en 7 jours.",
+  "description": "Création de site portfolio pour illustrateurs professionnels : galeries par projet, références clients, Visible sur Google par spécialité, livraison en 7 jours.",
   "serviceType": "Création de site web pour illustrateur",
   "areaServed": { "@type": "Country", "name": "France" },
   "inLanguage": "fr"

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Offre Studio7j — Site d'artiste premium en 7 jours"
-description: "Découvrez l'offre Studio7j : site portfolio sur-mesure pour artistes, rendu galerie, SEO-first, livré en 7 jours. Tout inclus, process transparent."
+description: "Découvrez l'offre Studio7j : site portfolio sur-mesure pour artistes, rendu galerie, visible sur Google dès le lancement, livré en 7 jours. Tout inclus, process transparent."
 permalink: /pages/offre/
 ---
 
@@ -9,7 +9,7 @@ permalink: /pages/offre/
 <header class="offer-header">
   <span class="eyebrow">L'offre</span>
   <h1 class="h1 offer-header__title">Site d'artiste premium.<br><em>Livré en 7 jours.</em></h1>
-  <p class="lead offer-header__lead">Un portfolio sur-mesure, pensé pour les artistes et artisans — avec le rendu d'une galerie, l'efficacité du SEO, et un process sans surprise.</p>
+  <p class="lead offer-header__lead">Un portfolio sur-mesure, pensé pour les artistes et artisans — avec le rendu d'une galerie, visible sur Google dès le lancement, et un process sans surprise.</p>
   <div class="cta">
     <a class="btn btn--lg" href="https://cal.com/aldjia-boughias/studio7j?overlayCalendar=true">Réserver un RDV de cadrage</a>
     <a class="btn btn--ghost btn--lg" href="{{ '/pages/contact/' | relative_url }}">Poser une question</a>
@@ -43,7 +43,7 @@ permalink: /pages/offre/
       </ul>
     </div>
     <div class="offer-include-group">
-      <p class="offer-include-group__title">SEO &amp; technique</p>
+      <p class="offer-include-group__title">Visible sur Google &amp; technique</p>
       <ul class="offer-list">
         <li>Balises title &amp; meta description optimisées</li>
         <li>Structure de titres (H1, H2) cohérente</li>
@@ -132,8 +132,8 @@ permalink: /pages/offre/
     <div class="timeline-item">
       <span class="timeline-item__day">J6</span>
       <div class="timeline-item__content">
-        <h3>SEO &amp; performance</h3>
-        <p>Metas, balises, sitemap, compression images, tests sur mobile. Le site est rapide et lisible par Google.</p>
+        <h3>Visibilité Google &amp; performance</h3>
+        <p>Le site est configuré pour être trouvé sur Google, rapide à charger, et parfait sur mobile.</p>
       </div>
     </div>
     <div class="timeline-item timeline-item--last">
@@ -159,7 +159,7 @@ permalink: /pages/offre/
     <ul class="pricing-list">
       <li>Design sur-mesure, rendu galerie</li>
       <li>Développement &amp; intégration du contenu</li>
-      <li>SEO on-page optimisé</li>
+      <li>Conçu pour être trouvé sur Google</li>
       <li>Hébergement gratuit sur GitHub Pages</li>
       <li>Mise en ligne complète</li>
       <li>1 vague de retours incluse</li>

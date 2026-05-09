@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "À propos — Studio7j"
-description: "Studio7j est une agence web à taille humaine, spécialisée dans la création de sites pour artistes et artisans. Rendu galerie, SEO-first, livraison en 7 jours."
+description: "Studio7j est une agence web à taille humaine, spécialisée dans la création de sites pour artistes et artisans. Rendu galerie, visible sur Google dès le lancement, livraison en 7 jours."
 permalink: /pages/a-propos/
 ---
 
@@ -32,7 +32,7 @@ permalink: /pages/a-propos/
         <span class="about-value__num">02</span>
         <div>
           <p class="about-value__title">Spécialisation artistes</p>
-          <p class="about-value__desc">On connaît les enjeux spécifiques d'un portfolio d'artiste : hiérarchie visuelle, SEO par discipline, conversion vers une prise de contact.</p>
+          <p class="about-value__desc">On connaît les enjeux spécifiques d'un portfolio d'artiste : hiérarchie visuelle, être trouvable sur Google par discipline, conversion vers une prise de contact.</p>
         </div>
       </div>
       <div class="about-value">
@@ -67,8 +67,8 @@ permalink: /pages/a-propos/
       <p>On ne vend pas un template habillé à ta couleur. Chaque site est construit pour toi — ta discipline, ton identité, ton audience. Le résultat ne ressemble à aucun autre.</p>
     </div>
     <div class="about-approach__item">
-      <h3>SEO intégré dès le départ</h3>
-      <p>Le référencement n'est pas une option ajoutée en fin de projet. Il est pensé dans la structure, le contenu et le code — depuis la première ligne.</p>
+      <h3>Visible sur Google dès le lancement</h3>
+      <p>Être trouvé sur Google n'est pas une option ajoutée en fin de projet. C'est pensé dans la structure, le contenu et le code — depuis la première ligne.</p>
     </div>
     <div class="about-approach__item">
       <h3>Hébergement sans frais récurrents</h3>

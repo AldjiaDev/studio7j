@@ -1,14 +1,14 @@
 ---
 layout: default
 title: "Agence web pour artistes Lyon — Site portfolio livré en 7 jours"
-description: "Studio7j crée des sites portfolio pour artistes et artisans d'art à Lyon et en Auvergne-Rhône-Alpes : rendu galerie, SEO-first, livré en 7 jours. Peintres, céramistes, photographes."
+description: "Studio7j crée des sites portfolio pour artistes et artisans d'art à Lyon et en Auvergne-Rhône-Alpes : rendu galerie, visible sur Google dès le lancement, livré en 7 jours. Peintres, céramistes, photographes."
 permalink: /agence-web-artistes-lyon/
 ---
 
 <header class="offer-header">
   <span class="eyebrow">Agence web — Lyon & Auvergne-Rhône-Alpes</span>
   <h1 class="h1 offer-header__title">Site d'artiste à Lyon,<br><em>livré en 7 jours.</em></h1>
-  <p class="lead offer-header__lead">Studio7j crée des sites portfolio professionnels pour les artistes et artisans d'art lyonnais. Rendu galerie, SEO optimisé pour Lyon et la région, livré en 7 jours.</p>
+  <p class="lead offer-header__lead">Studio7j crée des sites portfolio professionnels pour les artistes et artisans d'art lyonnais. Rendu galerie, visible sur Google à Lyon et la région, livré en 7 jours.</p>
 </header>
 
 <section class="about-section">
@@ -23,7 +23,7 @@ permalink: /agence-web-artistes-lyon/
       <div class="about-value">
         <span class="about-value__num">01</span>
         <div>
-          <p class="about-value__title">SEO local Lyon</p>
+          <p class="about-value__title">Visible sur Google dans ta ville Lyon</p>
           <p class="about-value__desc">Optimisation pour "peintre Lyon", "artisan d'art Lyon", "photographe Rhône-Alpes" et toutes les variantes locales de votre discipline.</p>
         </div>
       </div>
@@ -58,7 +58,7 @@ permalink: /agence-web-artistes-lyon/
   "@type": "Service",
   "name": "Agence web pour artistes Lyon",
   "provider": { "@type": "ProfessionalService", "name": "Studio7j", "url": "https://studio7j.fr" },
-  "description": "Création de sites portfolio pour artistes et artisans d'art à Lyon et en Auvergne-Rhône-Alpes. Rendu galerie, SEO local, livraison en 7 jours.",
+  "description": "Création de sites portfolio pour artistes et artisans d'art à Lyon et en Auvergne-Rhône-Alpes. Rendu galerie, Visible sur Google dans ta ville, livraison en 7 jours.",
   "serviceType": "Création de site web pour artiste",
   "areaServed": { "@type": "City", "name": "Lyon" },
   "inLanguage": "fr"

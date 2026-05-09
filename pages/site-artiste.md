@@ -120,15 +120,15 @@ permalink: /site-artiste/
     </div>
     <div class="about-approach__item">
       <h3>Site de photographe</h3>
-      <p>Galeries par projet, chargement ultra-rapide des images, contact pour commandes et tirages, SEO par spécialité.</p>
+      <p>Galeries par projet, chargement ultra-rapide des images, contact pour commandes et tirages, Visible sur Google par spécialité.</p>
     </div>
     <div class="about-approach__item">
       <h3>Site de joaillier</h3>
-      <p>Présentation des créations en bijouterie d'art, savoir-faire et matériaux, prise de rendez-vous, référencement artisan d'art.</p>
+      <p>Présentation des créations en bijouterie d'art, savoir-faire et matériaux, prise de rendez-vous, pour être trouvé sur Google comme artisan d'art.</p>
     </div>
     <div class="about-approach__item">
       <h3>Site d'artisan d'art</h3>
-      <p>Mise en valeur du geste et du savoir-faire, référencement métier d'art, contact clientèle et institutionnel.</p>
+      <p>Mise en valeur du geste et du savoir-faire, pour être trouvé sur Google comme métier d'art, contact clientèle et institutionnel.</p>
     </div>
   </div>
 </section>
